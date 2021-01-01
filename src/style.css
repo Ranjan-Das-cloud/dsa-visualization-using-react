@@ -1,23 +1,18 @@
 body{
-    background-color: black;
+    background-color: white;
 }
 
-/*.blue-text{
+.blue-text{
     color: blueviolet;
 }
-#navbar{
-    float:left;
-    background-color: cornflowerblue;
-    height: 100px;
-    width: 100%;
-}
+
 .card{
     float: left;
     width: 25%;
     margin: 10px;
-}*/
+}
 
 .card-spacing{
-    margin-left: 5%;
-    margin-top: 15px;
+    margin-left: 0%;
+    margin-top: 50px;
 }
