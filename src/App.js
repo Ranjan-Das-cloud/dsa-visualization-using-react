@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from './card';
 import Jumbotron from './jumbotron';
 import Navbar from './navbar';
 
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <Navbar/>
         <Jumbotron/>
+        <Card/>
       </div>
      );
   }
