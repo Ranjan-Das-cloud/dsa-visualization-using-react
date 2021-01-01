@@ -5,7 +5,7 @@ class Navbar extends Component {
     render() { 
         return ( 
         <nav className="navbar bg-danger">
-            <a href="#" className="navbar-brand text-white">Flipkart</a>
+            <a href="#" className="navbar-brand text-white offset-5"><center>Data Structure Algo Visualization</center></a>
         </nav>
         );
     }
