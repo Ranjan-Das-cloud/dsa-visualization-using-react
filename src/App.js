@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <Navbar/>
         <Jumbotron/>
-        <Card/>
+        <Card title="Selection of Algo for visualization"/>
       </div>
      );
   }
