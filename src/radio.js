@@ -5,7 +5,7 @@ class Radio extends Component {
     render() { 
         return ( 
             <div>
-                <input checked={this.props.checked} type="radio" name="correct"></input>{this.props.name}
+                <input checked={this.props.checked} type="radio" name="correct"></input>  {this.props.name}
             </div>
          );
     }
