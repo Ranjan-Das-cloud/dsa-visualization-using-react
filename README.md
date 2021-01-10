@@ -1,3 +1,7 @@
+# Data Structure Algoritms Visualization using React JavaScript
+
+The human brain can easily process visuals instead of long codes to understand the algorithms. In this article, a program that program visualizes the Merge sort Algorithm has been implemented.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
