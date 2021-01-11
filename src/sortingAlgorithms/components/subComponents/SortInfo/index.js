@@ -16,7 +16,7 @@ const SortInfo = ({
       <h1>{title ? title : 'Select Algorithm'}</h1>
 
       <div className="SortInfo__Body">
-        <article className="SortInfo__Article">
+        <article className="SortInfo_desc">
           {description ? (
             description
           ) : (
@@ -26,8 +26,8 @@ const SortInfo = ({
           )}
         </article>
 
-        <aside className="SortInfo__Aside">
-          <h3>Performance</h3>
+        <aside className="SortInfo__right">
+          <h3>Algorithm Performance</h3>
           <table>
             <tbody>
               <tr>
