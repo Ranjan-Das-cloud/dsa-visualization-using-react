@@ -1,3 +1,5 @@
+/* All the colors are fetched from Material Design CSS */
+
 .App {
   /* MD Green 400 */
   --primary: #66bb6a;
@@ -17,7 +19,7 @@
   /* MD Red 400 */
   --red: #ef5350;
   --red-light: #ff867c;
-  --red-dark: #ff867c;
+  --red-dark: #a10d00;
 
   /* MD Yellow 400 */
   --yellow: #ffee58;
@@ -29,6 +31,7 @@
   --amber-light: #ffff81;
   --amber-dark: #c8a415;
 
+  /* Gray Scale */
   --white: rgba(255, 255, 255, 0.87);
   --gray-50: rgb(242, 242, 247);
   --gray-100: rgb(229, 229, 234);
@@ -47,7 +50,7 @@
   --button-disabled-ink-color: rgba(0, 0, 0, 0.37);
 
   --background-color-1: white;
-  --background-color-2: rgb(152, 224, 218);
+  --background-color-2: rgb(213, 247, 247);
   --background-color-3: white;
   --background-color-4: white;
 
@@ -89,3 +92,7 @@
   --box-shadow-2: var(--elevation-umbra-2) var(--elevation-umbra-color),
     var(--elevation-penumbra-2) var(--elevation-penumbra-color);
 }
+
+/*
+    To get all the Elevation Shadows Go to the link -- "https://stackoverflow.com/questions/30533055/calculating-shadow-values-for-all-material-design-elevations"
+*/
