@@ -4,15 +4,12 @@ import './style.css';
 
 // Sub components
 import Background from '../../elementalComponents/Background';
-/*
 
 import {
-  MdExpandMore as AngleDown,
-  MdExpandLess as AngleUp
-} from 'react-icons/md';
-icon={this.state.open ? AngleUp : AngleDown}
+  VscChevronDown as ArrowDown,
+  VscChevronUp as ArrowUp
+} from 'react-icons/vsc';
 
-*/
 import Button from '../../elementalComponents/Button';
 
 const MenuList = ({ open, items, onSelect }) => {
@@ -82,6 +79,7 @@ class Menu extends Component {
             )}
             {noDropIcon ? null : (
               <Button
+                icon={this.state.open ? ArrowUp : ArrowDown}
                 onClick={this.toggle}
               />
             )}
