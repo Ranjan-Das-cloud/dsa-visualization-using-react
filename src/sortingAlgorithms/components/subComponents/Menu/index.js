@@ -6,9 +6,9 @@ import './style.css';
 import Background from '../../elementalComponents/Background';
 
 import {
-  VscChevronDown as ArrowDown,
-  VscChevronUp as ArrowUp
-} from 'react-icons/vsc';
+  KeyboardArrowDownSVGIcon as ArrowDown,
+  KeyboardArrowUpSVGIcon as ArrowUp
+} from '@react-md/material-icons';
 
 import Button from '../../elementalComponents/Button';
 
