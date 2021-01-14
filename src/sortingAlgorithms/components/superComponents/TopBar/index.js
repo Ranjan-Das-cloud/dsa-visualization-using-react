@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 import Button from '../../elementalComponents/Button';
-import { MdMenu as Hamburger, MdClose as Close } from 'material-design-icons';
+import { VscMenu as Menu, VscClose as Close } from 'react-icons/vsc';
 
 const TopBar = ({ drawerOpen, toggleDrawer, children }) => {
   return (
@@ -10,7 +10,7 @@ const TopBar = ({ drawerOpen, toggleDrawer, children }) => {
       <div className="TopBar__Row">
         <section className="TopBar__Section">
           <Button
-            icon={drawerOpen ? Close : Hamburger}
+            icon={drawerOpen ? Close : Menu}
             className="TopBar__MenuButton"
             iconClass="TopBar__Icon"
             onClick={toggleDrawer}
