@@ -2,8 +2,13 @@
   text-align: left;
   width: 80%;
   max-width: 1200px;
+  color: white;
   padding: 1rem;
   margin: 0 auto;
+  background:#234567;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5,#234567#234567);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #234567); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .SortInfo__Body {
