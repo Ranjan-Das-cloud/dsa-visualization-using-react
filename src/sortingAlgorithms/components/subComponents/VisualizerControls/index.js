@@ -6,10 +6,10 @@ import Button from '../../elementalComponents/Button';
 import {
   MdPlayArrow as Play,
   MdPause as Pause,
-  MdSkipNext as Forward,
-  MdSkipPrevious as Backward,
-  MdRepeat as Repeat
-} from 'material-design-icons';
+  MdFastForward as Forward,
+  MdFastRewind as Backward,
+  MdCached as Repeat
+} from 'react-icons/md';
 import Menu from '../Menu';
 
 // Helper function
@@ -81,7 +81,7 @@ const VisualizerControls = ({
       <Menu
         items={['0.25x', '0.5x', '1x', '2x', '4x']}
         placeholder="Speed"
-        selected={`${playbackSpeed}x`}
+        selected={`${playbackSpeed}x`} vf
         onSelect={onAdjustSpeed}
         noDropIcon
         className="VisualizerControls__SpeedButton"
