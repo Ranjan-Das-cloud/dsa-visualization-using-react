@@ -1,7 +1,7 @@
 @import './__colorHub/color_variables.css';
 
 .App {
-  --footer-height: 64px;
+  --footer-height: 0px;
 
   box-sizing: border-box;
   min-height: 100vh;
@@ -13,7 +13,10 @@
   text-align: center;
   color: var(--text-color);
 
-  background-color: var(--background-color-1);
+  background:#234567;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5,#234567#234567);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #234567); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   transition: color 250ms;
   transition: background-color 500ms ease-in-out;
 }
