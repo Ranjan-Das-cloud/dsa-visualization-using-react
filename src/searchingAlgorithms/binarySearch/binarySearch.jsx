@@ -142,12 +142,12 @@ export default class BinarySearch extends React.Component {
                                         type="number"
                                         id="binarySearchTargetVal"
                                         className="form-control"
-                                        placeholder="Find Element"
+                                        placeholder="--- Enter an element to find ---"
                                     />
                                     <div className="input-group-append">
                                         <button
                                             onClick={() => this.binarySearch()}
-                                            className="btn btn-success"
+                                            className="btn rounded-bottom btn-success"
                                             type="button"
                                             id="binarySearchBtn"
                                             disabled={disabled}
@@ -156,7 +156,7 @@ export default class BinarySearch extends React.Component {
                                         </button>
                                         <button
                                             onClick={() => this.resetArray()}
-                                            className="btn btn-danger"
+                                            className="btn rounded-bottom btn-danger"
                                             id="binarySearchResetArray"
                                             type="button"
                                             disabled={disabled}
