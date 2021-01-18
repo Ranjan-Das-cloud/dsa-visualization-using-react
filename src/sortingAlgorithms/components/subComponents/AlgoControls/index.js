@@ -18,7 +18,7 @@ const AppControls = ({
   return (
     <Fragment>
       <Menu
-        placeholder="Sort Algorithm"
+        placeholder="-- Select Algorithm"
         items={[
           'Bubble Sort',
           'Selection Sort',

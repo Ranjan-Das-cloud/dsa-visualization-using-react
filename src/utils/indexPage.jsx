@@ -77,7 +77,7 @@ export default class IndexTable extends React.Component {
                         </div>
                     </div>
                     <div className="text-center text-muted end-text mt-5">
-                        <h4>Have a Great Learning Day!</h4>
+                        <h4 className="mb-5">Have a Great Learning Day!</h4>
                     </div>
                 </center>
             </div>
