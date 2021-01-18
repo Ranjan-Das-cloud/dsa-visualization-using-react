@@ -46,6 +46,7 @@
   --gray-900: rgb(28, 28, 30);
 
   --text-color: var(--gray-800);
+  --text-color-light: var(--red-dark);
   --text-color-dark: var(--gray-800);
   --button-disabled-ink-color: rgba(0, 0, 0, 0.37);
 
