@@ -12,6 +12,11 @@ import {
 
 import Button from '../../elementalComponents/Button';
 
+//Conditionally applying inline styles and Classes or Action
+/* When using inline styles or classes or action, we might also want to apply or remove styles or classes or action based on the state of the component. 
+We can easily add conditional styles using the ternary operator.
+*/
+
 const MenuList = ({ open, items, onSelect }) => {
   return open ? (
     <ul className="Menu__List">
