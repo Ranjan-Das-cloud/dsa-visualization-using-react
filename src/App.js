@@ -15,6 +15,7 @@ import LinearSearch from "./searchingAlgorithms/linearSearch/linearSearch";
 
 //  Stylesheets
 import "./App.css";
+import Footer from "./sortingAlgorithms/components/subComponents/Footer";
 
 export default class App extends React.Component {
     constructor(props) {
@@ -30,6 +31,7 @@ export default class App extends React.Component {
                 <Route path="/sorting" component={SortingVisualizer} />
                 <Route path="/linear-search" component={LinearSearch} />
                 <Route path="/binary-search" component={BinarySearch} />
+                <Footer />
             </div>
         );
     }

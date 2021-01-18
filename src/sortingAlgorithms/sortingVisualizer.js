@@ -6,7 +6,7 @@ import AppControls from './components/subComponents/AlgoControls';
 import TopBar from './components/superComponents/TopBar';
 import AppDrawer from './components/superComponents/AppDrawer';
 import SortVisualizer from './components/superComponents/SortVisualizer';
-import Footer from './components/subComponents/Footer';
+//import Footer from './components/subComponents/Footer';
 
 import BubbleSort, {
   BubbleSortKey,
@@ -168,7 +168,7 @@ class SortingVisualizer extends Component {
             desc={desc}
           />
         </main>
-        <Footer />
+
       </div>
     );
   }
