@@ -40,13 +40,13 @@ const Footer = () => {
                 <a href="https://www.geeksforgeeks.org/sorting-algorithms/" rel="noopener noreferrer" target="_blank" class="hover-me text-white">GeekforGeeks</a>
               </li>
               <li>
+                <a href="https://www.programiz.com/dsa/bubble-sort" rel="noopener noreferrer" target="_blank" class="text-white">Programiz</a>
+              </li>
+              <li>
                 <a href="https://www.javatpoint.com/data-structure-tutorial" rel="noopener noreferrer" target="_blank" class="text-white">Javatpoint</a>
               </li>
               <li>
-                <a href="https://www.hackerrank.com" rel="noopener noreferrer" target="_blank" class="text-white">HackerRank</a>
-              </li>
-              <li>
-                <a href="https://www.hackerearth.com" rel="noopener noreferrer" target="_blank" class="text-white">HackerEarth</a>
+                <a href="https://www.hackerearth.com" rel="noopener noreferrer" target="_blank" class="text-white">Codeacademy</a>
               </li>
             </ul>
           </div>
@@ -56,16 +56,16 @@ const Footer = () => {
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="https://www.hackerrank.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light hover-me  fa-lg fa-hackerrank"></i>HackerRank</a>
+                <a href="https://www.hackerrank.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-hackerrank"></i>HackerRank</a>
               </li>
               <li>
-                <a href="https://www.hackerearth.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-linkedin"></i>HackerEarth</a>
+                <a href="https://www.hackerearth.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-hackerearth"></i>HackerEarth</a>
               </li>
               <li>
-                <a href="https://www.leetcode.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-paper-plane"></i>LeetCode</a>
+                <a href="https://www.leetcode.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-leetcode"></i>LeetCode</a>
               </li>
               <li>
-                <a href="https://www.codechef.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-medium"></i>CodeChef</a>
+                <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-codepen"></i>CodePen</a>
               </li>
             </ul>
           </div>
