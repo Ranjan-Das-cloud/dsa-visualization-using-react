@@ -2,8 +2,6 @@ import React from 'react';
 
 //  import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
-import './node_modules/@'
-
 
 const Footer = () => {
   return (
@@ -54,20 +52,20 @@ const Footer = () => {
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Contacts</h5>
+            <h5 class="text-uppercase">Code Editors</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="https://github.com/Ranjan-Das-cloud" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light hover-me  fa-lg fa-github"></i></a>
+                <a href="https://www.hackerrank.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light hover-me  fa-lg fa-hackerrank"></i>HackerRank</a>
               </li>
               <li>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-linkedin"></i></a>
+                <a href="https://www.hackerearth.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-linkedin"></i>HackerEarth</a>
               </li>
               <li>
-                <a href="https://gmail.com/" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-paper-plane"></i></a>
+                <a href="https://www.leetcode.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-paper-plane"></i>LeetCode</a>
               </li>
               <li>
-                <a href="https://www.medium.com/@ranjan.das" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-medium"></i></a>
+                <a href="https://www.codechef.com" target="_blank" rel="noopener noreferrer" class="text-white"><i className="fab text-light fa-lg fa-medium"></i>CodeChef</a>
               </li>
             </ul>
           </div>
@@ -90,8 +88,7 @@ const Footer = () => {
                 <div> 
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
-                      <i class="fas fa-github  
-                            fa-stack-1x"></i> 
+                      <a href="https://github.com/Ranjan-Das-cloud" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fab fa-github fa-stack-1x"></i></a> 
                        
                     </span> 
                   </span> 
@@ -99,31 +96,28 @@ const Footer = () => {
                   <span class="icon is-large">
                     <span class="fa-stack fa-lg"> 
                     
-                      <i class="fas fa-linkedin  
-                        fa-stack-1x has-text-white"></i> 
+                      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fab fa-linkedin fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
       
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
                        
-                      <a href="www.google.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-phone-alt fa-stack-1x has-text-white"></i></a>
+                      <a href="https://gmail.com/" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-envelope fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
       
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
                        
-                      <i class="fab fa-medium  
-                        fa-stack-1x has-text-white"></i>
+                      <a href="https://www.medium.com/@ranjan.das" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fab fa-medium fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
       
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
                        
-                      <i class="fas fa-paper-plane  
-                        fa-stack-1x has-text-white"></i>
+                      <a href="https://www.telegram.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-paper-plane fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
                 </div> 
