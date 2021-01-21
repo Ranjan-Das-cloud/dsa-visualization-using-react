@@ -45,6 +45,12 @@
   text-decoration: underline;
 }
 
+.hover-me:hover{
+  height:50px;
+  width: 100%;
+  color: black;
+}
+
 .Footer__Link:hover {
   color: var(--text-color-light);
 }
