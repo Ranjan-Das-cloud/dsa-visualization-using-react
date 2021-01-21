@@ -1,5 +1,8 @@
 import React from "react";
 
+// For installing Fontawesome @5.0.0 the latest one, run the command** -- "npm install --save @fortawesome/fontawesome-free"
+
+
 const NavBar = () => (
     <div className="bg-dark py-2 px-2">
         <span>
