@@ -3,6 +3,7 @@ import React from 'react';
 //  import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 
+
 const Footer = () => {
   return (
     <footer class="bg-primary text-white text-center text-lg-start Footer">
@@ -13,59 +14,61 @@ const Footer = () => {
 
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
 
-            <h5 class="text-uppercase">About Me</h5>
+            <h4 class="text-uppercase">About Me</h4>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-              voluptatem veniam, est atque cumque eum delectus sint!
-              Demonstrated with{' '}
-                  <span className="Footer__Heart">&hearts;</span> by{' '}
-                  <a
-                    href="https://www.github.com/Ranjan-Das-cloud"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="Footer__Link text-white"
-                  >
-                    Ranjan Das
-                  </a>
-            </p>
+            <h5 class="mb-2">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                voluptatem veniam, est atque cumque eum delectus sint!
+                Demonstrated with{' '}
+                    <span className="Footer__Heart">&hearts;</span> by{' '}
+                    <a
+                      href="https://www.github.com/Ranjan-Das-cloud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="Footer__Link text-white"
+                    >
+                      Ranjan Das
+                    </a>
+              </p>
+            </h5>
           </div>
           
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Resources</h5>
+            <h4 class="text-uppercase">Resources</h4>
 
-            <ul class="list-unstyled mb-0">
+            <ul class="list-unstyled mb-2">
               <li>
-                <a href="https://www.geeksforgeeks.org/sorting-algorithms/" rel="noopener noreferrer" target="_blank" class="hover-me text-white">GeekforGeeks</a>
+                <h5><a href="https://www.geeksforgeeks.org/sorting-algorithms/" rel="noopener noreferrer" target="_blank" class="hover-me text-white">GeekforGeeks</a></h5>
               </li>
               <li>
-                <a href="https://www.programiz.com/dsa/bubble-sort" rel="noopener noreferrer" target="_blank" class="text-white">Programiz</a>
+                <h5><a href="https://www.programiz.com/dsa/bubble-sort" rel="noopener noreferrer" target="_blank" class="text-white">Programiz</a></h5>
               </li>
               <li>
-                <a href="https://www.javatpoint.com/data-structure-tutorial" rel="noopener noreferrer" target="_blank" class="text-white">Javatpoint</a>
+                <h5><a href="https://www.javatpoint.com/data-structure-tutorial" rel="noopener noreferrer" target="_blank" class="text-white">Javatpoint</a></h5>
               </li>
               <li>
-                <a href="https://www.hackerearth.com" rel="noopener noreferrer" target="_blank" class="text-white">Codeacademy</a>
+                <h5><a href="https://www.hackerearth.com" rel="noopener noreferrer" target="_blank" class="text-white">Codeacademy</a></h5>
               </li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Code Editors</h5>
+            <h4 class="text-uppercase">Code Editors</h4>
 
-            <ul class="list-unstyled mb-0">
+            <ul class="list-unstyled mb-2">
               <li>
-                <a href="https://www.hackerrank.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-hackerrank"></i>HackerRank</a>
+                <h5><i class="cib-hackerrank"></i>&nbsp;<a href="https://www.hackerrank.com" target="_blank" rel="noopener noreferrer" class="text-white">HackerRank</a></h5>
               </li>
               <li>
-                <a href="https://www.hackerearth.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-hackerearth"></i>HackerEarth</a>
+                <h5><i class="cib-hackerearth"></i>&nbsp;<a href="https://www.hackerearth.com" target="_blank" rel="noopener noreferrer" class="text-white">HackerEarth</a></h5>
               </li>
               <li>
-                <a href="https://www.leetcode.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-leetcode"></i>LeetCode</a>
+                <h5><i class="cib-leetcode"></i>&nbsp;<a href="https://www.leetcode.com" target="_blank" rel="noopener noreferrer" class="text-white">LeetCode</a></h5>
               </li>
               <li>
-                <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" class="text-white"><i class="cib-codepen"></i>CodePen</a>
+                <h5><i class="cib-codepen"></i>&nbsp;<a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" class="text-white">CodePen</a></h5>
               </li>
             </ul>
           </div>
@@ -117,7 +120,7 @@ const Footer = () => {
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
                        
-                      <a href="https://www.telegram.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-paper-plane fa-stack-1x has-text-white"></i></a>
+                      <a href="https://www.telegram.org" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-paper-plane fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
                 </div> 
