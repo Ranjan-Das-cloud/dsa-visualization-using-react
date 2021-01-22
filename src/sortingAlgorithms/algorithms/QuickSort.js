@@ -120,7 +120,9 @@ export const QuickSortKey = createKey(
 );
 
 export const QuickSortDesc = {
-  title: 'Quick Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Quick Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
   description: (
     <div>
       <p>
@@ -129,7 +131,7 @@ export const QuickSortDesc = {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Quick Sort
+          <i class="cib-wikipedia"></i>&nbsp;Quick Sort
         </a>{' '}
         is an efficient, in-place sorting algorith that in practice is
         faster than MergeSort and HeapSort. However, it is not a stable

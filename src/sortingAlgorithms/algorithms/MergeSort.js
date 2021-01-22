@@ -89,7 +89,9 @@ export const MergeSortKey = createKey(
   'Overwrite from axillary array'
 );
 export const MergeSortDesc = {
-  title: 'Merge Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Merge Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
   description: (
     <div>
       <p>
@@ -98,7 +100,7 @@ export const MergeSortDesc = {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Merge Sort
+          <i class="cib-wikipedia"></i>&nbsp;Merge Sort
         </a>{' '}
         is an efficient, stable sorting algorith that makes use of the
         divide and conquer strategy. Conceptually the algorithm works as

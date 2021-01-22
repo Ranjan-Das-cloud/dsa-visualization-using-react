@@ -108,7 +108,9 @@ export const HeapSortKey = createKey(
 );
 
 export const HeapSortDesc = {
-  title: 'Heap Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Heap Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
   description: (
     <div>
       <p>
@@ -117,7 +119,7 @@ export const HeapSortDesc = {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Heap Sort
+          <i class="cib-wikipedia"></i>&nbsp;Heap Sort
         </a>{' '}
         can be thought of as an improved selection sort that uses the
         heap data structure rather than a linear-time search to find the

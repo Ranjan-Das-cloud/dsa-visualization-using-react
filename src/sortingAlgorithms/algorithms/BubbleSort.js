@@ -35,7 +35,9 @@ const BubbleSort = (nums) => {
 
 export const BubbleSortKey = createKey('Comparing', 'Swapping');
 export const BubbleSortDesc = {
-  title: 'Bubble Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Bubble Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+    ),
   description: (
     <p>
       <a
@@ -43,7 +45,7 @@ export const BubbleSortDesc = {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Bubble Sort
+        <i class="cib-wikipedia"></i>&nbsp;Bubble Sort
       </a>{' '}
       is a simple sorting algorithm that repeatedly steps through the
       list, compares adjacent elements and swaps them if they are in the

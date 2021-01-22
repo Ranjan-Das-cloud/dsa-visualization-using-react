@@ -37,7 +37,9 @@ export const InsertionSortKey = createKey(
   'Overwrite from memory'
 );
 export const InsertionSortDesc = {
-  title: 'Insertion Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Insertion Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
   description: (
     <p>
       <a
@@ -45,7 +47,7 @@ export const InsertionSortDesc = {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Insertion Sort
+        <i class="cib-wikipedia"></i>&nbsp;Insertion Sort
       </a>{' '}
       is a simple sorting algorithm that iterates through an array and
       at each iteration it removes one element from the array, finds the

@@ -45,7 +45,9 @@ const SelectionSort = (nums) => {
 export const SelectionSortKey = createKey('Comparing', 'Swapping');
 
 export const SelectionSortDesc = {
-  title: 'Selection Sort',
+  title: (
+    <span><i class="cil-mood-very-good"></i>&nbsp;Selection Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
   description: (
     <p>
       <a
@@ -53,7 +55,7 @@ export const SelectionSortDesc = {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Selection Sort
+        <i class="cib-wikipedia"></i>&nbsp;Selection Sort
       </a>{' '}
       is an in-place comparison sorting algorithm that divides the input
       list into two parts: the sublist of items already sorted, which is
