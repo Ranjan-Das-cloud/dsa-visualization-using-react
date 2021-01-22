@@ -46,9 +46,11 @@ export default class IndexTable extends React.Component {
                                     src={SortingAlgoPoster}
                                     alt="Sorting"
                                 />
-                                <p className="text-info thumb-title">
-                                    All-sort-in-one Visualizer
-                                </p>
+                                <h5>
+                                    <p className="text-info thumb-title">
+                                        <i class="cil-signal"></i>&nbsp;All-sort-in-one Visualizer
+                                    </p>
+                                </h5>
                             </NavLink>
                         </div>
                         <div className="col-sm-4 col-6">
@@ -58,9 +60,11 @@ export default class IndexTable extends React.Component {
                                     src={LinearSearchPoster}
                                     alt="Linear Search"
                                 />
-                                <p className="text-info thumb-title">
-                                    Linear Search
-                                </p>
+                                <h5>
+                                    <p className="text-info thumb-title">
+                                        <span><i class="cil-search"></i>&nbsp;</span>Linear Search
+                                    </p>
+                                </h5>
                             </NavLink>
                         </div>
                         <div className="col-sm-4 col-6">
@@ -70,9 +74,11 @@ export default class IndexTable extends React.Component {
                                     src={BinarySearchPoster}
                                     alt="Binary Search"
                                 />
-                                <p className="text-info thumb-title">
-                                    Binary Search
-                                </p>
+                                <h5>
+                                    <p className="text-info thumb-title">
+                                        <span><i class="cil-search"></i>&nbsp;</span>Binary Search
+                                    </p>
+                                </h5>
                             </NavLink>
                         </div>
                     </div>
