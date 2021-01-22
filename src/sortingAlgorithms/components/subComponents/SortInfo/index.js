@@ -13,7 +13,7 @@ const SortInfo = ({
   return (
     <div className="SortInfo">
       <hr />
-      <h1>{title ? title : 'Select Algorithm'}</h1>
+      <h1><i class="cil-sad"></i>&nbsp;{title ? title : 'Select Algorithm'}&nbsp;&nbsp;<i class="cil-screen-desktop"></i></h1>
 
       <div className="SortInfo__Body">
         <article className="SortInfo_desc">
@@ -27,32 +27,32 @@ const SortInfo = ({
         </article>
 
         <aside className="SortInfo__right">
-          <h3>Algorithm Performance</h3>
+          <h3><span><i class="cil-graph"></i>&nbsp;</span>Algorithm Performance</h3>
           <table>
             <tbody>
               <tr>
-                <td>Worst-case time complexity</td>
+                <td><span><i class="cid-chart-line"></i>&nbsp;</span>Worst-case time complexity</td>
                 <td>
                   <code>{worstCase}</code>
                 </td>
               </tr>
 
               <tr>
-                <td>Average time complexity</td>
+                <td><span><i class="cid-chart-line"></i>&nbsp;</span>Average time complexity</td>
                 <td>
                   <code>{avgCase}</code>
                 </td>
               </tr>
 
               <tr>
-                <td>Best-case time complexity</td>
+                <td><span><i class="cid-chart-line"></i>&nbsp;</span>Best-case time complexity</td>
                 <td>
                   <code>{bestCase}</code>
                 </td>
               </tr>
 
               <tr>
-                <td>Worst-case space complexity</td>
+                <td><span><i class="cid-chart-area"></i>&nbsp;</span>Worst-case space complexity</td>
                 <td>
                   <code>{space}</code>
                 </td>
