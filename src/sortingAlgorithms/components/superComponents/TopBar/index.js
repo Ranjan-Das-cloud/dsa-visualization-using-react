@@ -15,7 +15,7 @@ const TopBar = ({ drawerOpen, toggleDrawer, children }) => {
             iconClass="TopBar__Icon"
             onClick={toggleDrawer}
           />
-          <span className="TopBar__Title">All-sort-in-one Visualizer</span>
+          <span className="TopBar__Title"><i class="cis-badge bg-success"></i>&nbsp;&nbsp;All-sort-in-one Visualizer</span>
         </section>
         <section className="TopBar__Section TopBar__Section_align_end">
           {children}
