@@ -26,15 +26,16 @@
 }
 
 .SortInfo_desc a {
-  color: var(--secondary);
+  color: var(--red-dark);
 }
 
 .SortInfo_desc a:hover {
-  color: var(--secondary-dark);
+  color: var(--blue-dark);
 }
 
 .SortInfo__right td {
   padding: 0.5rem 0;
+  
 }
 
 .SortInfo__right h3 {
@@ -44,6 +45,7 @@
 .SortInfo__right code {
   padding-left: 1rem;
   font-weight: 700;
+  color:crimson;
 }
 
 /* Large devices (desktops, 992px and up) */
