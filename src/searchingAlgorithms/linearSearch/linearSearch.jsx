@@ -9,6 +9,8 @@ import SideBar from "../../utils/sidebar";
 
 // Stylesheets
 import "./linearSearch.css";
+import Demo from "../../utils/Program_codes/toggler.tsx";
+import { Configuration } from "react-md";
 
 const NUMBER_OF_ARRAY_BARS = 15;
 const DEFAULT_COLOR = "#6376f1";
@@ -161,6 +163,11 @@ export default class LinearSearch extends React.Component {
                             ))}
                         </div>
                     </center>
+                </div>
+                <div className="row mt-3 mb-5">
+                    <Configuration>
+                        <Demo />
+                    </Configuration>
                 </div>
             </div>
         );
