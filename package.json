@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "classnames": "^2.2.6",
     "material-design-icons": "^3.0.1",
     "mdb-ui-kit": "^3.1.0",
     "mdbreact": "^5.0.1",
@@ -49,5 +50,13 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "26.0.20",
+    "@types/node": "14.14.7",
+    "@types/react": "17.0.0",
+    "node-sass": "4.14.1",
+    "react-scripts": "latest",
+    "typescript": "4.1.3"
+  }
 }
