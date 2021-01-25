@@ -5,7 +5,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   function Page3(props, ref) {
     return (
       <div {...props} ref={ref}>
-        <Text type="headline-4">Page 3</Text>
+        <Text type="headline-4">Source code in Python</Text>
         <Text>
           Donec lacinia velit ac est finibus malesuada. Mauris arcu dui, euismod
           quis erat et, iaculis molestie orci. Nullam efficitur felis non

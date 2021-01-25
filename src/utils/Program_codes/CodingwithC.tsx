@@ -5,7 +5,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   function Page1(props, ref) {
     return (
       <div {...props} ref={ref}>
-        <Text type="headline-4">Page 1</Text>
+        <Text type="headline-4">Source code in C</Text>
         <Text>
           Nunc dapibus nec neque vitae aliquam. Phasellus eu luctus tortor.
           Morbi et massa lectus. Nam nec posuere urna, nec tincidunt ligula.
