@@ -48,7 +48,10 @@ export default class IndexTable extends React.Component {
                                 />
                                 <h5>
                                     <p className="text-info thumb-title">
-                                        <i class="cil-signal"></i>&nbsp;All-sort-in-one Visualizer
+                                    <span>
+                                        <i class="cil-signal-cellular-4"></i>&nbsp;
+                                    </span>
+                                        All-sort-in-one Visualizer
                                     </p>
                                 </h5>
                             </NavLink>
@@ -62,7 +65,10 @@ export default class IndexTable extends React.Component {
                                 />
                                 <h5>
                                     <p className="text-info thumb-title">
-                                        <span><i class="cil-search"></i>&nbsp;</span>Linear Search
+                                    <span>
+                                        <i class="cil-search"></i>&nbsp;
+                                    </span>
+                                        Linear Search
                                     </p>
                                 </h5>
                             </NavLink>
@@ -76,7 +82,10 @@ export default class IndexTable extends React.Component {
                                 />
                                 <h5>
                                     <p className="text-info thumb-title">
-                                        <span><i class="cil-search"></i>&nbsp;</span>Binary Search
+                                    <span>
+                                        <i class="cil-search"></i>&nbsp;
+                                    </span>
+                                        Binary Search
                                     </p>
                                 </h5>
                             </NavLink>
