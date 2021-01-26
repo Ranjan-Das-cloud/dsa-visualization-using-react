@@ -5,12 +5,14 @@ import { Tabs, TabsManager } from "@react-md/tabs";
 import { CrossFade } from "@react-md/transition";
 import { Text } from "@react-md/typography";
 
-import useFakeLazyImport from "./useFakeLazyImport";
+import useFakeLazyImport from "../useFakeLazyImport";
 
-import Container from "./Container";
-import Page1 from "../Page1";
-import Page2 from "./Page2";
-import Page3 from "./Page3";
+import Container from "../Container";
+import Page1 from "./CodingwithC";
+import Page2 from "./CodingwithCpp";
+import Page3 from "./CodingwithPython";
+import Page4 from "./CodingwithJava";
+import Page5 from "./CodingwithC#.tsx";
 
 interface CurrentPageProps {
   page: number;
@@ -22,6 +24,10 @@ const CurrentPage: FC<CurrentPageProps> = ({ page }) => {
     content = <Page2 />;
   } else if (page === 2) {
     content = <Page3 />;
+  } else if (page === 3) {
+    content = <Page4 />;
+  } else if (page === 4) {
+    content = <Page5 />;
   }
 
   return <CrossFade>{content}</CrossFade>;
@@ -37,7 +43,7 @@ const CrossFadeExamplesAsync: FC = () => {
       <TabsManager
         activeIndex={page === -1 ? 0 : page}
         onActiveIndexChange={(index) => setPage(index)}
-        tabs={["Page 1", "Page 2", "Page 3"]}
+        tabs={["Page 1", "Page 2", "Page 3","C++","Page 5"]}
         tabsId="static-transition"
       >
         <AppBar theme="default">
@@ -51,7 +57,7 @@ const CrossFadeExamplesAsync: FC = () => {
           </Text>
         )}
         {page !== -1 && (
-          <Suspense fallback={<CircularProgress id="async-loading-progress" />}>
+          <Suspense fallback={<CircularProgress className="mt-4" id="async-loading-progress" />}>
             <Content page={page} />
           </Suspense>
         )}

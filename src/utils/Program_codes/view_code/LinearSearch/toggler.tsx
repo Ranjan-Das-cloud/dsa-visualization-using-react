@@ -2,8 +2,10 @@ import React, { FC, useState } from "react";
 import { Button } from "@react-md/button";
 import { useCSSTransition } from "@react-md/transition";
 
-import Page1 from "./Page1";
-import styles from "../../sortingAlgorithms/__colorHub/scss/UseCSSTransition.module.scss";
+//import Page1 from "./Page1";
+import styles from "./UseCSSTransition.module.scss";
+import Viewcodes from "./view_code/viewcodes";
+import { ExpandMoreSVGIcon, StorageSVGIcon, TextIconSpacing } from "react-md";
 
 const Demo: FC = () => {
   const [transitionIn, setTransitionIn] = useState(false);
@@ -35,10 +37,25 @@ const Demo: FC = () => {
 
   return (
     <>
-      <Button onClick={() => setTransitionIn(!transitionIn)}>Toggle</Button>
-      {rendered && <Page1 {...transitionProps} />}
+      <Button className="text-white" theme="error" themeType="contained" onClick={() => setTransitionIn(!transitionIn)}>
+        <TextIconSpacing icon={<StorageSVGIcon />}>
+          <TextIconSpacing icon={<ExpandMoreSVGIcon />} iconAfter>
+            Expand Codes
+          </TextIconSpacing>
+        </TextIconSpacing>
+      </Button>
+      {rendered && <div {...transitionProps}><Viewcodes /></div>}
     </>
   );
 };
 
 export default Demo;
+
+/*
+var com_modules = {
+  Demo,
+  Demo1
+}
+
+export default com_modules;
+*/
