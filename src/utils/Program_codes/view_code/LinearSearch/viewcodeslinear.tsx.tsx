@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { Divider } from "@react-md/divider";
 import { Text } from "@react-md/typography";
 
-import CrossFadeExamplesAsync from "./CrossFadeElementAsync";
+import CrossFadeExamplesAsync from "./CrossFadeElementAsyncLinear";
 //import CrossFadeExamplesStatic from "./CrossFadeExamplesStatic";
 
 const Viewcodes: FC = () => (
