@@ -8,7 +8,9 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text type="headline-4">Source code in C</Text>
         <Text>
           <code>
-            <div className="container text-left offset-4"><h5 className="mt-5 mb-4"><span><h4 className="bg-success"><b>Recursive</b> implementation of Binary Search</h4></span>
+          <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
+            <div className="container text-left">
+              <div className="offset-3 mt-4 mb-5">
               <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C program to implement recursive Binary Search </code></div>
               <div className="line number2 index1 alt1"><code className="preprocessor">#include &lt;stdio.h&gt; </code></div>
               <div className="line number3 index2 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
@@ -50,12 +52,13 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
               <div className="line number39 index38 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">: </code><code className="functions bold">printf</code><code className="plain">(</code><code className="string">"Element is present at index %d"</code><code className="plain">, </code></div>
               <div className="line number40 index39 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">result); </code></div>
               <div className="line number41 index40 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code> <code className="plain">0; </code></div>
-              <div className="line number42 index41 alt1"><code className="plain">&#125; </code></div></h5>
-              </div>
+              <div className="line number42 index41 alt1"><code className="plain">&#125; </code></div>
+              </div></div></h5>
 
               <h5 className="mt-4 mb-4">
-              <span><h4 className="bg-success"><b>Iterative</b> implementation of Binary Search</h4></span>
-                  <div className="container text-left offset-4">
+              <span><h4 className="text-success"><b>Iterative</b> implementation of Binary Search</h4></span>
+                  <div className="container text-left">
+                    <div className="offset-3 mt-4">
                       <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C program to implement iterative Binary Search </code></div>
                       <div className="line number2 index1 alt1"><code className="preprocessor">#include &lt;stdio.h&gt; </code></div>
                       <div className="line number3 index2 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
@@ -98,6 +101,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                       <div className="line number40 index39 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">result); </code></div>
                       <div className="line number41 index40 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code> <code className="plain">0; </code></div>
                       <div className="line number42 index41 alt1"><code className="plain">&#125; </code></div>
+                    </div>
                   </div>
               </h5>
               </code>

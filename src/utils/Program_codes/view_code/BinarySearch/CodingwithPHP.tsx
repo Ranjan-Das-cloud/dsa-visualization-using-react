@@ -8,13 +8,21 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text type="headline-4">Source code in PHP</Text>
         <Text>
           <code>
-          <div className="container text-left offset-4"><h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
-          </h5>
-          
-          <h5>
+            <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
+              <div className="container text-left offset-4">
+                <div className="offset-3 mt-4 mb-5">
 
-          </h5>
-          </div>
+                </div>
+              </div>
+            </h5>
+            
+            <h5>
+              <div className="container text-left offset-4">
+                <div className="offset-3 mt-4 mb-5">
+
+                </div>
+              </div>
+            </h5>
           </code>
         </Text>
       </div>
