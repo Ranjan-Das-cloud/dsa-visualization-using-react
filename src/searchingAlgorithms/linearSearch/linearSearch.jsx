@@ -9,7 +9,7 @@ import SideBar from "../../utils/sidebar";
 
 // Stylesheets
 import "./linearSearch.css";
-import Demo from "../../utils/Program_codes/toggler.tsx";
+import Demo from "../../utils/Program_codes/view_code/LinearSearch/toggler.tsx";
 import { Configuration } from "react-md";
 
 const NUMBER_OF_ARRAY_BARS = 15;
@@ -164,7 +164,7 @@ export default class LinearSearch extends React.Component {
                         </div>
                     </center>
                 </div>
-                <div className="row mt-3 mb-5">
+                <div className="row mt-3 mb-5 text-center">
                     <Configuration>
                         <Demo />
                     </Configuration>
