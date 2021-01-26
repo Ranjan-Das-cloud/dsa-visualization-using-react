@@ -55,7 +55,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
               <div className="line number44 index43 alt1"><code className="comments">&#47;&#8727; This code is contributed by GeekforGeeks &#8727;&#47;</code></div></h5>
 
               <h5 className="mt-4 mb-4"><span><h4 className="bg-success"><b>Iterative</b> implementation of Binary Search</h4></span>
-                <div className="container text-left offset-4">
+                <div className="container">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; Java implementation of iterative Binary Search </code></div>
                   <div className="line number2 index1 alt1"><code className="keyword">class</code> <code className="plain">BinarySearch &#123; </code></div>
                   <div className="line number3 index2 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; Returns index of x if it is present in arr[], </code></div>
