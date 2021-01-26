@@ -9,9 +9,9 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text>
           <code>
             <div className="container text-left offset-4"><h5 className="mt-5 mb-4">
-                <div className="line number1 index0 alt2"><code className="comments">// C++ code to linearly search x in arr[]. If x </code></div>
-                <div className="line number2 index1 alt1"><code className="comments">// is present then return its location, otherwise </code></div>
-                <div className="line number3 index2 alt2"><code className="comments">// return -1 </code></div>
+                <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C++ code to linearly search x in arr[]. If x </code></div>
+                <div className="line number2 index1 alt1"><code className="comments">&#47;&#47; is present then return its location, otherwise </code></div>
+                <div className="line number3 index2 alt2"><code className="comments">&#47;&#47; return -1 </code></div>
                 <div className="line number4 index3 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
                 <div className="line number5 index4 alt2"><code className="preprocessor">#include &lt;iostream&gt; </code></div>
                 <div className="line number6 index5 alt1"><code className="keyword bold">using</code> <code className="keyword bold">namespace</code> <code className="plain">std; </code></div>
@@ -25,14 +25,14 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                 <div className="line number14 index13 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code> <code className="plain">-1; </code></div>
                 <div className="line number15 index14 alt2"><code className="plain">&#125; </code></div>
                 <div className="line number16 index15 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                <div className="line number17 index16 alt2"><code className="comments">// Driver code </code></div>
+                <div className="line number17 index16 alt2"><code className="comments">&#47;&#47; Driver code </code></div>
                 <div className="line number18 index17 alt1"><code className="color1 bold">int</code> <code className="plain">main(</code><code className="keyword bold">void</code><code className="plain">) </code></div>
                 <div className="line number19 index18 alt2"><code className="plain">&#123; </code></div>
                 <div className="line number20 index19 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">arr[] = &#123; 2, 3, 4, 10, 40 &#125;; </code></div>
                 <div className="line number21 index20 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">x = 10; </code></div>
                 <div className="line number22 index21 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">n = </code><code className="keyword bold">sizeof</code><code className="plain">(arr) / </code><code className="keyword bold">sizeof</code><code className="plain">(arr[0]); </code></div>
                 <div className="line number23 index22 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;</code>&nbsp;</div>
-                <div className="line number24 index23 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">// Function call </code></div>
+                <div className="line number24 index23 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#47; Function call </code></div>
                 <div className="line number25 index24 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">result = search(arr, n, x); </code></div>
                 <div className="line number26 index25 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">(result == -1) </code></div>
                 <div className="line number27 index26 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">? cout &lt;&lt; </code><code className="string">"Element is not present in array"</code></div>
