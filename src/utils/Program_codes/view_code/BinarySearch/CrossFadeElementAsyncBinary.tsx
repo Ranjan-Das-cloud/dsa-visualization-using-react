@@ -14,6 +14,7 @@ import PageB2 from "./CodingwithCpp";
 import PageB3 from "./CodingwithPython";
 import PageB4 from "./CodingwithJava";
 import PageB5 from "./CodingwithC#";
+import PageB6 from "./CodingwithPHP";
 
 interface CurrentPageProps {
   page: number;
@@ -29,6 +30,8 @@ const CurrentPage: FC<CurrentPageProps> = ({ page }) => {
     content = <PageB4 />;
   } else if (page === 4) {
     content = <PageB5 />;
+  } else if (page === 4) {
+    content = <PageB6 />;
   }
 
   return <CrossFade>{content}</CrossFade>;
@@ -44,7 +47,7 @@ const CrossFadeExamplesAsyncBinary: FC = () => {
       <TabsManager
         activeIndex={page === -1 ? 0 : page}
         onActiveIndexChange={(index) => setPage(index)}
-        tabs={["C", "C++", "Python3","Java","C#"]}
+        tabs={["C", "C++", "Python3","Java","C#","PHP"]}
         tabsId="static-transition"
       >
         <AppBar theme="default">
