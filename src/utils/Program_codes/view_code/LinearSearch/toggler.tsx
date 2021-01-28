@@ -3,8 +3,7 @@ import { Button } from "@react-md/button";
 import { useCSSTransition } from "@react-md/transition";
 
 //import Page1 from "./Page1";
-import styles from "../../view_code/UseCSSTransition.module.scss";
-//import Viewcodes from "./view_code/viewcodes";
+import styles from "./UseCSSTransition.module.scss";
 import { ExpandMoreSVGIcon, StorageSVGIcon, TextIconSpacing } from "react-md";
 import Viewcodes from "./viewcodeslinear.tsx";
 
