@@ -12,7 +12,8 @@ import Page1 from "./CodingwithC";
 import Page2 from "./CodingwithCpp";
 import Page3 from "./CodingwithPython";
 import Page4 from "./CodingwithJava";
-import Page5 from "./CodingwithC#.tsx";
+import Page5 from "./CodingwithC#";
+import Page6 from "./CodingwithPHP";
 
 interface CurrentPageProps {
   page: number;
@@ -28,6 +29,8 @@ const CurrentPage: FC<CurrentPageProps> = ({ page }) => {
     content = <Page4 />;
   } else if (page === 4) {
     content = <Page5 />;
+  } else if (page === 5) {
+    content = <Page6 />;
   }
 
   return <CrossFade>{content}</CrossFade>;
@@ -43,7 +46,7 @@ const CrossFadeExamplesAsync: FC = () => {
       <TabsManager
         activeIndex={page === -1 ? 0 : page}
         onActiveIndexChange={(index) => setPage(index)}
-        tabs={["Page 1", "Page 2", "Page 3","C++","Page 5"]}
+        tabs={["C", "C++", "Python","Java","C#","PHP"]}
         tabsId="static-transition"
       >
         <AppBar theme="default">
@@ -53,7 +56,7 @@ const CrossFadeExamplesAsync: FC = () => {
       <Container>
         {page === -1 && (
           <Text type="headline-6">
-            {'Click on "Page 2" or "Page 3" to start the demo'}
+            {'Click on other tabs to start coding!'}
           </Text>
         )}
         {page !== -1 && (
