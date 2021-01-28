@@ -55,9 +55,9 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number42 index41 alt1"><code className="plain">&#125; </code></div>
                 </div>
               </div>
-            </h5>
+            </h5><br></br><br></br>
 
-            <h5 className="mt-4 mb-4"><span><h4 className="bg-success"><b>Iterative</b> implementation of Binary Search</h4></span>
+            <h5 className="mt-4 mb-4"><span><h4 className="text-success"><b>Iterative</b> implementation of Binary Search</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C++ program to implement iterative Binary Search </code></div>

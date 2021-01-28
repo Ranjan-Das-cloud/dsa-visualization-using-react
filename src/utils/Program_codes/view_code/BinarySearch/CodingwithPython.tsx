@@ -8,8 +8,9 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text type="headline-4">Source code in Python</Text>
         <Text>
           <code>
-            <h5 className="mt-5 mb-4"><span><h4 className="bg-success"><b>Recursive</b> implementation of Binary Search</h4></span>
-              <div className="container text-left offset-4">
+            <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
+              <div className="container text-left">
+              <div className="offset-3 mt-4 mb-5">
                 <div className="line number1 index0 alt2"><code className="comments"># Python3 Program for recursive binary search. </code></div>
                 <div className="line number2 index1 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
                 <div className="line number3 index2 alt2 highlighted"><code className="comments"># Returns index of x in arr if present, else -1 </code></div>
@@ -48,12 +49,12 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                 <div className="line number36 index35 alt1"><code className="keyword">if</code> <code className="plain">result !</code><code className="keyword">=</code> <code className="keyword">-</code><code className="value">1</code><code className="plain">: </code></div>
                 <div className="line number37 index36 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="functions">print</code> <code className="plain">(</code><code className="string">"Element is present at index % d"</code> <code className="keyword">%</code> <code className="plain">result) </code></div>
                 <div className="line number38 index37 alt1"><code className="keyword">else</code><code className="plain">: </code></div>
-                <div className="line number39 index38 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="functions">print</code> <code className="plain">(</code><code className="string">"Element is not present in array"</code><code className="plain">) </code></div>
+                <div className="line number39 index38 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="functions">print</code> <code className="plain">(</code><code className="string">"Element is not present in array"</code><code className="plain">) </code></div></div>
               </div>
-            </h5>
+            </h5><br></br><br></br>
 
-            <h5><span><h4 className="bg-success"><b>Iterative</b> implementation of Binary Search</h4></span>
-              <div className="container">
+            <h5><span><h4 className="text-success"><b>Iterative</b> implementation of Binary Search</h4></span>
+              <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments"># Python3 code to implement iterative Binary&nbsp; </code></div>
                   <div className="line number2 index1 alt1"><code className="comments"># Search. </code></div>

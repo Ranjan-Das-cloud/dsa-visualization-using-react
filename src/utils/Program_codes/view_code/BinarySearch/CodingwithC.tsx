@@ -53,7 +53,9 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
               <div className="line number40 index39 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">result); </code></div>
               <div className="line number41 index40 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code> <code className="plain">0; </code></div>
               <div className="line number42 index41 alt1"><code className="plain">&#125; </code></div>
-              </div></div></h5>
+              </div>
+            </div>
+          </h5>
 
               <h5 className="mt-4 mb-4">
               <span><h4 className="text-success"><b>Iterative</b> implementation of Binary Search</h4></span>
@@ -104,7 +106,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                     </div>
                   </div>
               </h5>
-              </code>
+            </code>
         </Text>
       </div>
     );

@@ -9,7 +9,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text>
           <code>
             <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
-              <div className="container text-left offset-4">
+              <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C# implementation of recursive Binary Search </code></div>
                   <div className="line number2 index1 alt1"><code className="keyword">using</code> <code className="plain">System; </code></div>
@@ -64,10 +64,10 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number51 index50 alt2"><code className="comments">&#47;&#47; This code is contributed by GeekforGeeks. </code></div>
                 </div>
               </div>
-            </h5>
+            </h5><br></br><br></br>
             
-            <h5>
-              <div className="container text-left offset-4">
+            <h5 className="mt-4 mb-4"><span><h4 className="text-success"><b>Iterative</b> implementation of Binary Search</h4></span>
+              <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C# implementation of iterative Binary Search </code></div>
                   <div className="line number2 index1 alt1"><code className="keyword">using</code> <code className="plain">System; </code></div>

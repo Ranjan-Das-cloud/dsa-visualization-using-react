@@ -30,7 +30,7 @@ const CurrentPage: FC<CurrentPageProps> = ({ page }) => {
     content = <PageB4 />;
   } else if (page === 4) {
     content = <PageB5 />;
-  } else if (page === 4) {
+  } else if (page === 5) {
     content = <PageB6 />;
   }
 
