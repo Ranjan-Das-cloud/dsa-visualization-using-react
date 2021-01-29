@@ -1,6 +1,7 @@
 import React from 'react';
 import { Configuration } from 'react-md';
-import DemoSelection from '../../utils/Program_codes/view_code/SortingAlgorithms/SelectionSort/togglerselection';
+import DemoHeap from '../../utils/Program_codes/view_code/SortingAlgorithms/HeapSort/togglerheap';
+
 import {
   swap,
   newTrace,
@@ -116,7 +117,7 @@ export const HeapSortDesc = {
   code: (
     <div className="row mt-3 mb-0 text-center">
       <Configuration>
-          <DemoSelection />
+          <DemoHeap />
       </Configuration>
     </div>
   ),
