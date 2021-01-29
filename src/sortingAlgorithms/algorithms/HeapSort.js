@@ -114,7 +114,7 @@ export const HeapSortDesc = {
     <span><i class="cil-mood-very-good"></i>&nbsp;Heap Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
   ),
   code: (
-    <div className="row mt-3 mb-1 text-center">
+    <div className="row mt-3 mb-0 text-center">
       <Configuration>
           <DemoSelection />
       </Configuration>
