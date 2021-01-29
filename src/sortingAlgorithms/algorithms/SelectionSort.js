@@ -1,4 +1,6 @@
 import React from 'react';
+import { Configuration } from 'react-md';
+import DemoSelection from '../../utils/Program_codes/view_code/SortingAlgorithms/SelectionSort/togglerselection';
 import {
   swap,
   newTrace,
@@ -47,6 +49,13 @@ export const SelectionSortKey = createKey('Comparing', 'Swapping');
 export const SelectionSortDesc = {
   title: (
     <span><i class="cil-mood-very-good"></i>&nbsp;Selection Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
+  code: (
+    <div className="row mt-3 mb-0 text-center">
+      <Configuration>
+          <DemoSelection />
+      </Configuration>
+    </div>
   ),
   description: (
     <p>
