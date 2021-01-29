@@ -1,4 +1,6 @@
 import React from 'react';
+import { Configuration } from 'react-md';
+import DemoQuick from '../../utils/Program_codes/view_code/SortingAlgorithms/QuickSort/togglerquick';
 import {
   swap,
   newTrace,
@@ -122,6 +124,13 @@ export const QuickSortKey = createKey(
 export const QuickSortDesc = {
   title: (
     <span><i class="cil-mood-very-good"></i>&nbsp;Quick Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
+  code: (
+    <div className="row mt-3 mb-0 text-center">
+      <Configuration>
+          <DemoQuick />
+      </Configuration>
+    </div>
   ),
   description: (
     <div>
