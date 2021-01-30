@@ -10,6 +10,8 @@ import SideBar from "../../utils/sidebar";
 
 //Stylesheets
 import "./binarySearch.css";
+import { Configuration } from "react-md";
+import Binary from "../../utils/Program_codes/view_code/BinarySearch/togglerbinary.tsx";
 
 const NUMBER_OF_ARRAY_BARS = 15;
 const DEFAULT_COLOR = "#6376f1";
@@ -183,6 +185,11 @@ export default class BinarySearch extends React.Component {
                             ))}
                         </div>
                     </center>
+                </div>
+                <div className="row mt-3 mb-5 text-center">
+                    <Configuration>
+                        <Binary />
+                    </Configuration>
                 </div>
             </div>
         );
