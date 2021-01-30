@@ -143,7 +143,7 @@ export default class BinarySearch extends React.Component {
                                     <input
                                         type="number"
                                         id="binarySearchTargetVal"
-                                        className="form-control"
+                                        className="form-control teaxt-md-center"
                                         placeholder="--- Enter an element to find ---"
                                     />
                                     <div className="input-group-append">
