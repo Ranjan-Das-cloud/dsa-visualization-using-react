@@ -8,12 +8,13 @@ import CrossFadeExamplesAsync from "./CrossFadeElementAsyncLinear";
 const Viewcodes: FC = () => (
   <>
     <Text type="headline-6" margin="bottom">
-      Static Transitions
+      <div className="mt-1"></div>
+      Code Explorer
     </Text>
     
     <Divider />
     <Text type="headline-6">
-      Async with <code>Suspense</code>
+      <span className="text-info">Source/Program codes in multiple </span><code>Programming Languages</code>
     </Text>
     <CrossFadeExamplesAsync />
     <Divider />
