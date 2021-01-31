@@ -1,4 +1,6 @@
 import React from 'react';
+import { Configuration } from 'react-md';
+import DemoMerge from '../../utils/Program_codes/view_code/SortingAlgorithms/MergeSort/togglermerge';
 import { newTrace, addToTrace, createKey } from './helpers';
 
 const MergeSort = (nums) => {
@@ -91,6 +93,13 @@ export const MergeSortKey = createKey(
 export const MergeSortDesc = {
   title: (
     <span><i class="cil-mood-very-good"></i>&nbsp;Merge Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
+  code: (
+    <div className="row mt-3 mb-0 text-center">
+      <Configuration>
+          <DemoMerge />
+      </Configuration>
+    </div>
   ),
   description: (
     <div>
