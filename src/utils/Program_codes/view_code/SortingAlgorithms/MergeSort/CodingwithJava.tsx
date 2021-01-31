@@ -11,7 +11,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
             <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}>Implementation of Merge Sort</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
-                  <div className="line number1 index0 alt2"><code className="comments">/* Java program for Merge Sort */</code></div>
+                  <div className="line number1 index0 alt2"><code className="comments">&#47;&#8727; Java program for Merge Sort &#8727;&#47;</code></div>
                   <div className="line number2 index1 alt1"><code className="keyword">class</code> <code className="plain">MergeSort </code></div>
                   <div className="line number3 index2 alt2"><code className="plain">&#123;</code></div>
                   <div className="line number4 index3 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#47; Merges two subarrays of arr[].</code></div>
@@ -23,17 +23,17 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number10 index9 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">n1 = m - l + </code><code className="value">1</code><code className="plain">;</code></div>
                   <div className="line number11 index10 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">n2 = r - m;</code></div>
                   <div className="line number12 index11 alt1">&nbsp;</div>
-                  <div className="line number13 index12 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* Create temp arrays */</code></div>
+                  <div className="line number13 index12 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; Create temp arrays &#8727;&#47;</code></div>
                   <div className="line number14 index13 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">L[] = </code><code className="keyword">new</code> <code className="keyword">int</code><code className="plain">[n1];</code></div>
                   <div className="line number15 index14 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">R[] = </code><code className="keyword">new</code> <code className="keyword">int</code><code className="plain">[n2];</code></div>
                   <div className="line number16 index15 alt1">&nbsp;</div>
-                  <div className="line number17 index16 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/*Copy data to temp arrays*/</code></div>
+                  <div className="line number17 index16 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727;Copy data to temp arrays&#8727;&#47;</code></div>
                   <div className="line number18 index17 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">for</code> <code className="plain">(</code><code className="keyword">int</code> <code className="plain">i = </code><code className="value">0</code><code className="plain">; i &lt; n1; ++i)</code></div>
                   <div className="line number19 index18 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">L[i] = arr[l + i];</code></div>
                   <div className="line number20 index19 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">for</code> <code className="plain">(</code><code className="keyword">int</code> <code className="plain">j = </code><code className="value">0</code><code className="plain">; j &lt; n2; ++j)</code></div>
                   <div className="line number21 index20 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">R[j] = arr[m + </code><code className="value">1</code> <code className="plain">+ j];</code></div>
                   <div className="line number22 index21 alt1">&nbsp;</div>
-                  <div className="line number23 index22 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* Merge the temp arrays */</code></div>
+                  <div className="line number23 index22 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; Merge the temp arrays &#8727;&#47;</code></div>
                   <div className="line number24 index23 alt1">&nbsp;</div>
                   <div className="line number25 index24 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#47; Initial indexes of first and second subarrays</code></div>
                   <div className="line number26 index25 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">i = </code><code className="value">0</code><code className="plain">, j = </code><code className="value">0</code><code className="plain">;</code></div>
@@ -52,14 +52,14 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number39 index38 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">k++;</code></div>
                   <div className="line number40 index39 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;</code></div>
                   <div className="line number41 index40 alt2">&nbsp;</div>
-                  <div className="line number42 index41 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* Copy remaining elements of L[] if any */</code></div>
+                  <div className="line number42 index41 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; Copy remaining elements of L[] if any &#8727;&#47;</code></div>
                   <div className="line number43 index42 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">while</code> <code className="plain">(i &lt; n1) &#123;</code></div>
                   <div className="line number44 index43 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">arr[k] = L[i];</code></div>
                   <div className="line number45 index44 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">i++;</code></div>
                   <div className="line number46 index45 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">k++;</code></div>
                   <div className="line number47 index46 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;</code></div>
                   <div className="line number48 index47 alt1">&nbsp;</div>
-                  <div className="line number49 index48 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* Copy remaining elements of R[] if any */</code></div>
+                  <div className="line number49 index48 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; Copy remaining elements of R[] if any &#8727;&#47;</code></div>
                   <div className="line number50 index49 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">while</code> <code className="plain">(j &lt; n2) &#123;</code></div>
                   <div className="line number51 index50 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">arr[k] = R[j];</code></div>
                   <div className="line number52 index51 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">j++;</code></div>
@@ -84,7 +84,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number71 index70 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;</code></div>
                   <div className="line number72 index71 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;</code></div>
                   <div className="line number73 index72 alt2">&nbsp;</div>
-                  <div className="line number74 index73 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* A utility function to print array of size n */</code></div>
+                  <div className="line number74 index73 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; A utility function to print array of size n &#8727;&#47;</code></div>
                   <div className="line number75 index74 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">static</code> <code className="keyword">void</code> <code className="plain">printArray(</code><code className="keyword">int</code> <code className="plain">arr[])</code></div>
                   <div className="line number76 index75 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#123;</code></div>
                   <div className="line number77 index76 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword">int</code> <code className="plain">n = arr.length;</code></div>

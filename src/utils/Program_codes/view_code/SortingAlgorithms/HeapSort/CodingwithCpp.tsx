@@ -58,7 +58,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number45 index44 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;</code></div>
                   <div className="line number46 index45 alt1"><code className="plain">&#125;</code></div>
                   <div className="line number47 index46 alt2">&nbsp;</div>
-                  <div className="line number48 index47 alt1"><code className="comments">/* A utility function to print array of size n */</code></div>
+                  <div className="line number48 index47 alt1"><code className="comments">&#47;&#8727; A utility function to print array of size n &#8727;&#47;</code></div>
                   <div className="line number49 index48 alt2"><code className="keyword bold">void</code> <code className="plain">printArray(</code><code className="color1 bold">int</code> <code className="plain">arr[], </code><code className="color1 bold">int</code> <code className="plain">n)</code></div>
                   <div className="line number50 index49 alt1"><code className="plain">&#123;</code></div>
                   <div className="line number51 index50 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">for</code> <code className="plain">(</code><code className="color1 bold">int</code> <code className="plain">i = 0; i &lt; n; ++i)</code></div>

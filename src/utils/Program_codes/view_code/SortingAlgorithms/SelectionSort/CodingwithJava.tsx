@@ -55,7 +55,6 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number41 index40 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">ob.printArray(arr); </code></div>
                   <div className="line number42 index41 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125; </code></div>
                   <div className="line number43 index42 alt2"><code className="plain">&#125; </code></div>
-                  <div className="line number44 index43 alt1"><code className="comments">/* This code is contributed by Rajat Mishra*/</code></div>
                 </div>
               </div>
             </h5>

@@ -40,7 +40,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                 <div className="line number26 index25 alt1 highlighted"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125; </code></div>
                 <div className="line number27 index26 alt2 highlighted"><code className="plain">&#125; </code></div>
                 <div className="line number28 index27 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                <div className="line number29 index28 alt2"><code className="comments">/* Function to print an array */</code></div>
+                <div className="line number29 index28 alt2"><code className="comments">&#47;&#8727; Function to print an array &#8727;&#47;</code></div>
                 <div className="line number30 index29 alt1"><code className="keyword bold">void</code> <code className="plain">printArray(</code><code className="color1 bold">int</code> <code className="plain">arr[], </code><code className="color1 bold">int</code> <code className="plain">size) </code></div>
                 <div className="line number31 index30 alt2"><code className="plain">&#123; </code></div>
                 <div className="line number32 index31 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">i; </code></div>

@@ -74,7 +74,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number61 index60 alt2">&nbsp;</div>
                   <div className="line number62 index61 alt1"><code className="comments">&#47;&#47; l is for left index and r is</code></div>
                   <div className="line number63 index62 alt2"><code className="comments">&#47;&#47; right index of the sub-array</code></div>
-                  <div className="line number64 index63 alt1"><code className="comments">&#47;&#47; of arr to be sorted */</code></div>
+                  <div className="line number64 index63 alt1"><code className="comments">&#47;&#47; of arr to be sorted &#8727;&#47;</code></div>
                   <div className="line number65 index64 alt2"><code className="keyword bold">void</code> <code className="plain">mergeSort(</code><code className="color1 bold">int</code> <code className="plain">arr[],</code><code className="color1 bold">int</code> <code className="plain">l,</code><code className="color1 bold">int</code> <code className="plain">r)&#123;</code></div>
                   <div className="line number66 index65 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">if</code><code className="plain">(l&gt;=r)&#123;</code></div>
                   <div className="line number67 index66 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code><code className="plain">;</code><code className="comments">&#47;&#47;returns recursively</code></div>

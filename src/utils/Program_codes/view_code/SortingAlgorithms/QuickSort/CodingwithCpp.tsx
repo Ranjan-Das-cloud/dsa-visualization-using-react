@@ -11,7 +11,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
             <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}>Implementation of Quick Sort</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
-                  <div className="line number1 index0 alt2"><code className="comments">/* C++ implementation of QuickSort */</code></div>
+                  <div className="line number1 index0 alt2"><code className="comments">&#47;&#8727; C++ implementation of QuickSort &#8727;&#47;</code></div>
                   <div className="line number2 index1 alt1"><code className="preprocessor">#include &lt;bits/stdc++.h&gt; </code></div>
                   <div className="line number3 index2 alt2"><code className="keyword bold">using</code> <code className="keyword bold">namespace</code> <code className="plain">std;&nbsp; </code></div>
                   <div className="line number4 index3 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
@@ -23,11 +23,11 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number10 index9 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">*b = t;&nbsp; </code></div>
                   <div className="line number11 index10 alt2"><code className="plain">&#125;&nbsp; </code></div>
                   <div className="line number12 index11 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                  <div className="line number13 index12 alt2"><code className="comments">/* This function takes last element as pivot, places&nbsp; </code></div>
+                  <div className="line number13 index12 alt2"><code className="comments">&#47;&#8727; This function takes last element as pivot, places&nbsp; </code></div>
                   <div className="line number14 index13 alt1"><code className="comments">the pivot element at its correct position in sorted&nbsp; </code></div>
                   <div className="line number15 index14 alt2"><code className="comments">array, and places all smaller (smaller than pivot)&nbsp; </code></div>
                   <div className="line number16 index15 alt1"><code className="comments">to left of pivot and all greater elements to right&nbsp; </code></div>
-                  <div className="line number17 index16 alt2"><code className="comments">of pivot */</code></div>
+                  <div className="line number17 index16 alt2"><code className="comments">of pivot &#8727;&#47;</code></div>
                   <div className="line number18 index17 alt1"><code className="color1 bold">int</code> <code className="plain">partition (</code><code className="color1 bold">int</code> <code className="plain">arr[], </code><code className="color1 bold">int</code> <code className="plain">low, </code><code className="color1 bold">int</code> <code className="plain">high)&nbsp; </code></div>
                   <div className="line number19 index18 alt2"><code className="plain">&#123;&nbsp; </code></div>
                   <div className="line number20 index19 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">pivot = arr[high]; </code><code className="comments">&#47;&#47; pivot&nbsp; </code></div>
@@ -46,16 +46,16 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number33 index32 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">return</code> <code className="plain">(i + 1);&nbsp; </code></div>
                   <div className="line number34 index33 alt1"><code className="plain">&#125;&nbsp; </code></div>
                   <div className="line number35 index34 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                  <div className="line number36 index35 alt1"><code className="comments">/* The main function that implements QuickSort&nbsp; </code></div>
+                  <div className="line number36 index35 alt1"><code className="comments">&#47;&#8727; The main function that implements QuickSort&nbsp; </code></div>
                   <div className="line number37 index36 alt2"><code className="comments">arr[] --&gt; Array to be sorted,&nbsp; </code></div>
                   <div className="line number38 index37 alt1"><code className="comments">low --&gt; Starting index,&nbsp; </code></div>
-                  <div className="line number39 index38 alt2"><code className="comments">high --&gt; Ending index */</code></div>
+                  <div className="line number39 index38 alt2"><code className="comments">high --&gt; Ending index &#8727;&#47;</code></div>
                   <div className="line number40 index39 alt1"><code className="keyword bold">void</code> <code className="plain">quickSort(</code><code className="color1 bold">int</code> <code className="plain">arr[], </code><code className="color1 bold">int</code> <code className="plain">low, </code><code className="color1 bold">int</code> <code className="plain">high)&nbsp; </code></div>
                   <div className="line number41 index40 alt2"><code className="plain">&#123;&nbsp; </code></div>
                   <div className="line number42 index41 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="keyword bold">if</code> <code className="plain">(low &lt; high)&nbsp; </code></div>
                   <div className="line number43 index42 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#123;&nbsp; </code></div>
-                  <div className="line number44 index43 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">/* pi is partitioning index, arr[p] is now&nbsp; </code></div>
-                  <div className="line number45 index44 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">at right place */</code></div>
+                  <div className="line number44 index43 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#8727; pi is partitioning index, arr[p] is now&nbsp; </code></div>
+                  <div className="line number45 index44 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">at right place &#8727;&#47;</code></div>
                   <div className="line number46 index45 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">pi = partition(arr, low, high);&nbsp; </code></div>
                   <div className="line number47 index46 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
                   <div className="line number48 index47 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="comments">&#47;&#47; Separately sort elements before&nbsp; </code></div>
@@ -65,7 +65,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number52 index51 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125;&nbsp; </code></div>
                   <div className="line number53 index52 alt2"><code className="plain">&#125;&nbsp; </code></div>
                   <div className="line number54 index53 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                  <div className="line number55 index54 alt2"><code className="comments">/* Function to print an array */</code></div>
+                  <div className="line number55 index54 alt2"><code className="comments">&#47;&#8727; Function to print an array &#8727;&#47;</code></div>
                   <div className="line number56 index55 alt1"><code className="keyword bold">void</code> <code className="plain">printArray(</code><code className="color1 bold">int</code> <code className="plain">arr[], </code><code className="color1 bold">int</code> <code className="plain">size)&nbsp; </code></div>
                   <div className="line number57 index56 alt2"><code className="plain">&#123;&nbsp; </code></div>
                   <div className="line number58 index57 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="color1 bold">int</code> <code className="plain">i;&nbsp; </code></div>
