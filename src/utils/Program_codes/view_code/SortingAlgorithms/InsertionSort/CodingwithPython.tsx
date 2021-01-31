@@ -2,7 +2,7 @@ import React, { forwardRef, HTMLAttributes } from "react";
 import { Text } from "@react-md/typography";
 
 export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
-  function PageB6(props, ref) {
+  function PageI3(props, ref) {
     return (
       <div {...props} ref={ref} className="mt-3 mb-1">
         <Text type="headline-4">Source code in Python</Text>
