@@ -1,4 +1,6 @@
 import React from 'react';
+import { Configuration } from 'react-md';
+import DemoInsertion from '../../utils/Program_codes/view_code/SortingAlgorithms/InsertionSort/togglerinsertion';
 import { newTrace, addToTrace, createKey } from './helpers';
 
 const InsertionSort = (nums) => {
@@ -39,6 +41,13 @@ export const InsertionSortKey = createKey(
 export const InsertionSortDesc = {
   title: (
     <span><i class="cil-mood-very-good"></i>&nbsp;Insertion Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+  ),
+  code: (
+    <div className="row mt-3 mb-0 text-center">
+      <Configuration>
+          <DemoInsertion />
+      </Configuration>
+    </div>
   ),
   description: (
     <p>
