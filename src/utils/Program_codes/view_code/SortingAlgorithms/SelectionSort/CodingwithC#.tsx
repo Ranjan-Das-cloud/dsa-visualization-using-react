@@ -1,6 +1,5 @@
 import React, { forwardRef, HTMLAttributes } from "react";
 import { Text } from "@react-md/typography";
-import './style.css';
 
 export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   function PageB6(props, ref) {
