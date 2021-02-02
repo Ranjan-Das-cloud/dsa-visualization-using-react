@@ -10,6 +10,7 @@ import SideBar from "../../utils/sidebar";
 
 //Stylesheets
 import "./binarySearch.css";
+import '../../sortingAlgorithms/__colorHub/codestyle.css';
 import { Configuration } from "react-md";
 import Binary from "../../utils/Program_codes/view_code/BinarySearch/togglerbinary.tsx";
 
@@ -96,8 +97,11 @@ export default class BinarySearch extends React.Component {
             count++;
 
             if (k === animations.length - 1 && found) {
+                var msg = "";
                 setTimeout(() => {
-                    this.setState({ disabled: true, found: true });
+                    console.log("Found !!!");
+                    msg = `${target} Element has been found !!`;
+                    this.setState({ disabled: true, msgAfterExecution: msg, found: true });
                     this.resetAllTiles(ArrayBlocks);
                     ArrayBlocks[mid].classList.add("highlight");
                     ArrayBlocks[mid].style.backgroundColor = FOUND_COLOR;
@@ -107,8 +111,9 @@ export default class BinarySearch extends React.Component {
             if (left === 0 && right === 0 && mid === 0 && !found) {
                 setTimeout(() => {
                     console.log("ELement not found");
+                    msg = `Element ${target} not found`
                     this.setState({
-                        msgAfterExecution: `Element not found`,
+                        msgAfterExecution: msg,
                         found: false,
                     });
                     this.resetAllTiles(ArrayBlocks);
@@ -123,7 +128,7 @@ export default class BinarySearch extends React.Component {
         }
 
         setTimeout(() => {
-            this.setState({ disabled: false });
+            this.setState({ disabled: false, msgAfterExecution: msg });
         }, count * 1000 * ANIMATION_SPEED_SECONDS);
     }
 
@@ -133,7 +138,7 @@ export default class BinarySearch extends React.Component {
         return (
             <div>
                 <SideBar />
-                <div className="jumbotron jumbotron-fluid bg-light">
+                <div className="jumbotron jumbotron-fluid bg-cover bg-light">
                     <center>
                         <Header title="Binary Search" />
                         <div className="container">
@@ -171,6 +176,9 @@ export default class BinarySearch extends React.Component {
                             </div>
                         </div>
                         {!found ? (
+                            <p className="not-found">{msgAfterExecution}</p>
+                        ) : null}
+                        {found ? (
                             <p className="not-found">{msgAfterExecution}</p>
                         ) : null}
                         <br />
