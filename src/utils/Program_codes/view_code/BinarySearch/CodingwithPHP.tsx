@@ -8,7 +8,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text type="headline-4">Source code in PHP</Text>
         <Text>
           <code>
-            <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}><b>Recursive</b> implementation of Binary Search</h4></span>
+            <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Recursive</b> implementation of Binary Search</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="plain">&lt;?php </code></div>
@@ -63,7 +63,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
               </div>
             </h5>
             
-            <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}><b>Iterative </b> implementation of Binary Search</h4></span>
+            <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Iterative </b> implementation of Binary Search</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="plain">&lt;?php </code></div>
