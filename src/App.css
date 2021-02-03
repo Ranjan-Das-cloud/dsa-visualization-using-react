@@ -1,10 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
-/*
+
 body {
-    background-color: #ffffff;
+    background-image: url('https://www.studying-in-germany.org/wp-content/uploads/2014/01/best-universities-germany-computer-sciences.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 650px;
 }
-*/
 
 .maskText {
     font-family: "Noto Sans JP", sans-serif;
@@ -17,6 +20,16 @@ body {
     font-weight: 700;
 }
 
+/* For width 400px and smaller: */
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url('./utils/Route_images/blackpink-ic-mob.jpg');
+      background-size: cover;
+      min-height: 1250px;
+    }
+  }
+  
+  
 .nav-link,
 .dropdown-item {
     cursor: pointer;
