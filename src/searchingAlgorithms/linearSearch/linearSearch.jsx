@@ -109,7 +109,7 @@ export default class LinearSearch extends React.Component {
         return (
             <div>
                 <SideBar />
-                <div className="jumbotron jumbotron-fluid bg-light">
+                <div className="jumbotron jumbotron-fluid bg-ls-cover bg-light">
                     <center>
                         <Header title="Linear Search" />
                         <div className="container">
@@ -148,7 +148,7 @@ export default class LinearSearch extends React.Component {
                         </div>
                         <br />
                         {!found ? (
-                            <p className="found growFind">
+                            <p className="not-found growFind">
                                 {msgAfterExecution}
                             </p>
                         ) : null}
@@ -164,7 +164,7 @@ export default class LinearSearch extends React.Component {
                         </div>
                     </center>
                 </div>
-                <div className="row mt-3 mb-5 text-center">
+                <div className="row mb-0 text-center">
                     <Configuration>
                         <Demo />
                     </Configuration>
