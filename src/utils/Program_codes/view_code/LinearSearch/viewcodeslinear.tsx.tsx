@@ -14,9 +14,9 @@ const Viewcodes: FC = () => (
       <h3 className="text-white bg-primary badge font-bold mt-2">Code Explorer</h3>
     </Text>
     
-    <Divider style={{background: ''}} />
+    <Divider style={{background: 'linear-gradient(to left, red, violet)'}} />
     <Text type="headline-6">
-    <span className="text-info badge bg-white font-sub-heading">Source/Program codes in multiple&nbsp;<span className="text-danger">Programming Languages</span></span>
+    <span className="text-info badge bg-white col-lock font-sub-heading">Source Program in multiple&nbsp;<span className="text-danger">Programming Languages</span></span>
     </Text>
     <CrossFadeExamplesAsync />
     <Divider />
