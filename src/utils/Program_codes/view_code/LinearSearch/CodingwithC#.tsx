@@ -2,7 +2,7 @@ import React, { forwardRef, HTMLAttributes } from "react";
 import { Text } from "@react-md/typography";
 
 export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
-  function PageB6(props, ref) {
+  function Page5(props, ref) {
     return (
       <div {...props} ref={ref} className="mt-3 mb-1">
         <Text type="headline-4">Source code in C#</Text>
@@ -45,11 +45,10 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number32 index31 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125; </code></div>
                   <div className="line number33 index32 alt2"><code className="plain">&#125; </code></div>
                   <div className="line number34 index33 alt1"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                  <div className="line number35 index34 alt2"><code className="comments">&#47;&#47; This code is contributed by DrRoot_</code></div>
                 </div>
               </div>
             </h5>
-            <h5><span><h4 className="text-success"><b>Improve Linear Search Worst-Case Complexity</b></h4><span><p>if element Found at last  O(n) to O(1)<br></br>if element Not found O(n) to O(n/2)</p></span></span>
+            <h5><span><h4 className="text-success"><b>Improve Linear Search Worst-Case Complexity</b></h4><span><p>1<sup>st</sup> case:&nbsp;&nbsp;if element Found at last  O(n) to O(1)<br></br>2<sup>nd</sup> case:&nbsp;&nbsp;if element Not found O(n) to O(n/2)</p></span></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C# program for linear search </code></div>

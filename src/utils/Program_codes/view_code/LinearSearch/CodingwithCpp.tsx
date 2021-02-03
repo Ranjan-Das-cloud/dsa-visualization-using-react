@@ -8,7 +8,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
         <Text type="headline-4">Source code in C++</Text>
         <Text>
           <code>
-          <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Implementation of Linear Search</b></h4></span>
+          <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Implementation of Linear Search</b></h4><span><p>1<sup>st</sup> case:&nbsp;&nbsp;if element Found at last  O(n) to O(1)<br></br>2<sup>nd</sup> case:&nbsp;&nbsp;if element Not found O(n) to O(n/2)</p></span></span>
             <div className="container text-left">
               <div className="offset-3 mt-4 mb-5">
                 <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; C++ code to linearly search x in arr[]. If x </code></div>
@@ -106,7 +106,6 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number57 index56 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">search(arr, search_element); </code></div>
                   <div className="line number58 index57 alt1"><code className="plain">&#125; </code></div>
                   <div className="line number59 index58 alt2"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code>&nbsp;</div>
-                  <div className="line number60 index59 alt1"><code className="comments">&#47;&#47; This code is contributed by mayanktyagi1709</code></div>
                 </div>
               </div>
             </h5>

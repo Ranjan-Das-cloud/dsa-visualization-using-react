@@ -47,7 +47,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                 </div>
               </div>
             </h5>
-            <h5><span><h4 className="text-success"><b>Improve Linear Search Worst-Case Complexity</b></h4></span><span><p>if element Found at last  O(n) to O(1)<br></br>if element Not found O(n) to O(n/2)</p></span>
+            <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Improve Linear Search Worst-Case Complexity</b></h4></span><span><p className="text-primary">1<sup>st</sup> case:&nbsp;&nbsp;if element Found at last  O(n) to O(1)<br></br>2<sup>nd</sup> case:&nbsp;&nbsp;if element Not found O(n) to O(n/2)</p></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments">&#47;&#47; Java program for linear search </code></div>
