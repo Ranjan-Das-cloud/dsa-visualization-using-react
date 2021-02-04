@@ -31,6 +31,7 @@ export default class BinarySearch extends React.Component {
             elementFoundAt: 0,
             target: null,
             msgAfterExecution: null,
+            msg: null,
             previousLength: 0,
             animations: [],
         };
@@ -58,6 +59,7 @@ export default class BinarySearch extends React.Component {
             found: false,
             disabled: false,
             msgAfterExecution: null,
+            msg: null,
             previousLength: this.state.animations.length,
         });
     }
@@ -77,6 +79,7 @@ export default class BinarySearch extends React.Component {
     }
 
     binarySearch() {
+        //var msg = "";
         const { array } = this.state;
         const animations = [];
         let count = 0;
@@ -97,23 +100,28 @@ export default class BinarySearch extends React.Component {
             count++;
 
             if (k === animations.length - 1 && found) {
-                var msg = "";
                 setTimeout(() => {
                     console.log("Found !!!");
-                    msg = `${target} Element has been found !!`;
-                    this.setState({ disabled: true, msgAfterExecution: msg, found: true });
+                    //msg = `${target} Element has been found !!`;
+                    this.setState({ disabled: true, msgAfterExecution: `${target} Element has been found !!`, found: true });
                     this.resetAllTiles(ArrayBlocks);
                     ArrayBlocks[mid].classList.add("highlight");
                     ArrayBlocks[mid].style.backgroundColor = FOUND_COLOR;
                 }, (k + 1) * ANIMATION_SPEED_SECONDS * 1000);
+
+                //setTimeout(() => {
+                  //  console.log("Found it !!!");
+                    //this.resetArray();
+                //
             }
 
             if (left === 0 && right === 0 && mid === 0 && !found) {
                 setTimeout(() => {
                     console.log("ELement not found");
-                    msg = `Element ${target} not found`
+                    //msg = `Element ${target} not found`
                     this.setState({
-                        msgAfterExecution: msg,
+                        disabled: true,
+                        msg: `Element ${target} not found`,
                         found: false,
                     });
                     this.resetAllTiles(ArrayBlocks);
@@ -128,12 +136,13 @@ export default class BinarySearch extends React.Component {
         }
 
         setTimeout(() => {
-            this.setState({ disabled: false, msgAfterExecution: msg });
+            this.setState({ disabled: false, msg: `${target} Element not found`, });
+            this.resetArray();
         }, count * 1000 * ANIMATION_SPEED_SECONDS);
     }
 
     render() {
-        const { array, found, disabled, msgAfterExecution } = this.state;
+        const { array, found, disabled, msgAfterExecution, msg } = this.state;
 
         return (
             <div>
@@ -176,10 +185,10 @@ export default class BinarySearch extends React.Component {
                             </div>
                         </div>
                         {!found ? (
-                            <p className="not-found">{msgAfterExecution}</p>
+                            <p className="not-found">{msg}</p>
                         ) : null}
                         {found ? (
-                            <p className="not-found">{msgAfterExecution}</p>
+                            <p className="found">{msgAfterExecution}</p>
                         ) : null}
                         <br />
                         <div className="container">
@@ -194,7 +203,7 @@ export default class BinarySearch extends React.Component {
                         </div>
                     </center>
                 </div>
-                <div className="row mt-3 mb-5 text-center">
+                <div className="row mt-3 col-lock mb-5 text-center">
                     <Configuration>
                         <Binary />
                     </Configuration>
