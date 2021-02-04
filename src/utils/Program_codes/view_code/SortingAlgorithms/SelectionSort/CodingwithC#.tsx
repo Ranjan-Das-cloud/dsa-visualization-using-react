@@ -57,7 +57,6 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number44 index43 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="plain">&#125; </code></div>
                   <div className="line number45 index44 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
                   <div className="line number46 index45 alt1"><code className="plain">&#125; </code></div>
-                  <div className="line number47 index46 alt2"><code className="comments">&#47;&#47; This code is contributed by Sam007 </code></div>
                 </div>
               </div>
             </h5>

@@ -46,9 +46,6 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                   <div className="line number33 index32 alt2"><code className="keyword">for</code> <code className="plain">(</code><code className="variable">$i</code> <code className="plain">= 0; </code><code className="variable">$i</code> <code className="plain">&lt; </code><code className="variable">$len</code><code className="plain">; </code><code className="variable">$i</code><code className="plain">++)&nbsp; </code></div>
                   <div className="line number34 index33 alt1"><code className="undefined spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code className="functions">echo</code> <code className="variable">$arr</code><code className="plain">[</code><code className="variable">$i</code><code className="plain">] . </code><code className="string">" "</code><code className="plain">;&nbsp; </code></div>
                   <div className="line number35 index34 alt2"><code className="undefined spaces">&nbsp;</code>&nbsp;</div>
-                  <div className="line number36 index35 alt1"><code className="comments">&#47;&#47; This code is contributed&nbsp; </code></div>
-                  <div className="line number37 index36 alt2"><code className="comments">&#47;&#47; by Deepika Gupta.&nbsp; </code></div>
-                  <div className="line number38 index37 alt1"><code className="plain">?&gt;&nbsp; </code></div>
                 </div>
               </div>
             </h5>

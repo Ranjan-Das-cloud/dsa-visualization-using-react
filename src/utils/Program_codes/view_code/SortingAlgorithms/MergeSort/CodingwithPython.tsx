@@ -74,7 +74,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
                 </div>
               </div>
             </h5>
-            <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}><b>Iterative </b>Implementation of Quick Sort</h4></span>
+            <h5 className="mt-5 mb-4"><span><h4 style={{color:'#f0ffff'}}><b>Iterative </b>Implementation of Merge Sort</h4></span>
               <div className="container text-left">
                 <div className="offset-3 mt-4 mb-5">
                   <div className="line number1 index0 alt2"><code className="comments"># Recursive Python Program for merge sort</code></div>
