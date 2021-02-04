@@ -9,7 +9,7 @@ const ProgressBar = ({ width }) => (
       style={{
         width: `${width}%`
       }}
-    ></div>
+    >{width}%</div>
   </div>
 );
 
