@@ -5,7 +5,7 @@ import { useCSSTransition } from "@react-md/transition";
 //import Page1 from "./Page1";
 import styles from "./UseCSSTransition.module.scss";
 import { ExpandMoreSVGIcon, StorageSVGIcon, TextIconSpacing } from "react-md";
-import Viewcodes from "./viewcodeslinear.tsx";
+import Viewcodes from "./viewcodeslinear";
 
 const Demo: FC = () => {
   const [transitionIn, setTransitionIn] = useState(false);
