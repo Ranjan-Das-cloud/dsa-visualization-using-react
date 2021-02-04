@@ -17,14 +17,10 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
               </div>
             </h5><br></br>
               <div className="text-center text-white font-weight-bold"><h5>
-                |'|<br></br>| |<br></br>
-              __| |__<br></br>
-              \&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<br></br>
-               \&nbsp;&nbsp;&nbsp;&nbsp;/<br></br>
-                \/<br></br>
+                |'|<br></br>| |<br></br>__| |__<br></br>\&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<br></br>\&nbsp;&nbsp;&nbsp;&nbsp;/<br></br>\/<br></br>
                 </h5>
               </div>
-            <div className="text-center"><span><a className="text-white" rel="noreferrer noopener" href="https://gist.githubusercontent.com/wangshijun/3552889/raw/7fcae3973bc8cf3ad282a093e40a685073f6f5d2/quicksort.php" target="blank"><MDBBtn className="btn-primary">Click Me for source code</MDBBtn></a></span></div>
+            <div className="text-center"><span><a className="text-white" rel="noreferrer noopener" href="https://gist.githubusercontent.com/wangshijun/3552889/raw/7fcae3973bc8cf3ad282a093e40a685073f6f5d2/quicksort.php" target="_self"><MDBBtn className="btn-primary">Click Me for source code</MDBBtn></a></span></div>
           </code>
         </Text>
       </div>
