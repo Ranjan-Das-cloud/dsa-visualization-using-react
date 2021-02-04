@@ -16,7 +16,7 @@ const ViewcodesBinary: FC = () => (
     
     <Divider />
     <Text type="headline-6">
-      <span className="text-info badge col-lock bg-white">Source Program in multiple&nbsp;<span className="text-danger">Programming Languages</span></span>
+      <span className="text-info badge badge-pill col-lock bg-white">Source Program in multiple&nbsp;<span className="text-danger">Programming Languages</span></span>
     </Text>
     <CrossFadeExamplesAsyncBinary />
     <Divider />
