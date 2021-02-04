@@ -4,6 +4,7 @@ import { useCSSTransition } from "@react-md/transition";
 
 //import Page1 from "./Page1";
 import styles from "./UseCSSTransition.module.scss";
+import '../../../../sortingAlgorithms/__colorHub/codestyle.css';
 
 import { ExpandMoreSVGIcon, StorageSVGIcon, TextIconSpacing } from "react-md";
 import ViewcodesBinary from "./viewcodesbinary";
@@ -38,7 +39,7 @@ const Binary: FC = () => {
 
   return (
     <>
-      <Button className="text-white" theme="error" themeType="contained" onClick={() => setTransitionIn(!transitionIn)}>
+      <Button className="text-white waves waves-effect waves-dark" theme="error" themeType="contained" onClick={() => setTransitionIn(!transitionIn)}>
         <TextIconSpacing icon={<StorageSVGIcon />}>
           <TextIconSpacing icon={<ExpandMoreSVGIcon />} iconAfter>
             Expand Codes
