@@ -2,10 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
 
 body {
-    background-image: url('https://www.studying-in-germany.org/wp-content/uploads/2014/01/best-universities-germany-computer-sciences.jpg');
+    background-image: url('./utils/Route_images/blackpink-ic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    max-width: 100%;
     min-height: 650px;
 }
 
@@ -25,9 +26,16 @@ body {
     body {
       background-image: url('./utils/Route_images/blackpink-ic-mob.jpg');
       background-size: cover;
-      min-height: 1250px;
     }
   }
+
+  @media only screen and (min-width: 1000px) {
+    body {
+      background-image: url('https://www.studying-in-germany.org/wp-content/uploads/2014/01/best-universities-germany-computer-sciences.jpg');
+      background-size: cover;
+    }
+  }
+  
   
   
 .nav-link,
