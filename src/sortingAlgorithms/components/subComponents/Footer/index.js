@@ -106,7 +106,7 @@ const Footer = () => {
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
                        
-                      <a href="https://gmail.com/" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-envelope fa-stack-1x has-text-white"></i></a>
+                      <a href="mailto:ranjan.rd170@gmail.com" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-envelope fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
       
