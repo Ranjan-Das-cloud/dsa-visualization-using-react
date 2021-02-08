@@ -18,9 +18,9 @@ const Footer = () => {
 
             <h5 class="mb-2">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                voluptatem veniam, est atque cumque eum delectus sint!
+              I am a modest learner with several extraordinary skills.
+              Currently, I'm studying B.Tech. at Techno Main Salt Lake.
+              I love to listen to songs, develop blogs and play games, learning new projects, watching specially horror movies.
                 Demonstrated with{' '}
                     <span className="Footer__Heart">&hearts;</span> by{' '}
                     <a
@@ -119,7 +119,6 @@ const Footer = () => {
       
                   <span class="icon is-large"> 
                     <span class="fa-stack fa-lg"> 
-                       
                       <a href="https://www.telegram.org" target="_blank" rel="noopener noreferrer" class="text-white"><i class="fas fa-paper-plane fa-stack-1x has-text-white"></i></a>
                     </span> 
                   </span> 
