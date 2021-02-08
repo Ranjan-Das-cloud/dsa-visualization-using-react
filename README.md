@@ -2,6 +2,11 @@
 
 The human brain can easily process visuals instead of long codes to understand the algorithms. In this Project, searching and sorting algorithms that visualizes the Linear Search, Binary Search, Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Heap Sort and Quick Sort Algorithm has been implemented.
 
+## Go to the website to see demonstration of this project --
+
+### Demonstration on Heroku App -->
+### Demontration on Github pages -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
