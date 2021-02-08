@@ -9,6 +9,7 @@ import SideBar from "../../utils/sidebar";
 
 // Stylesheets
 import "./linearSearch.css";
+import '../../sortingAlgorithms/__colorHub/codestyle.css';
 import Demo from "../../utils/Program_codes/view_code/LinearSearch/toggler.tsx";
 import { Configuration } from "react-md";
 
@@ -172,7 +173,7 @@ export default class LinearSearch extends React.Component {
                         </div>
                     </center>
                 </div>
-                <div className="row mb-0 text-center">
+                <div className="row mt-3 col-lock mb-0 text-center">
                     <Configuration>
                         <Demo />
                     </Configuration>
