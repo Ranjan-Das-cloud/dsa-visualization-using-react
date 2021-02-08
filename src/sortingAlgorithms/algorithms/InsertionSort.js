@@ -40,7 +40,7 @@ export const InsertionSortKey = createKey(
 );
 export const InsertionSortDesc = {
   title: (
-    <span><i class="cil-mood-very-good"></i>&nbsp;Insertion Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+    <span>&nbsp;Insertion Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
   ),
   code: (
     <div className="row mt-3 mb-0 text-center">

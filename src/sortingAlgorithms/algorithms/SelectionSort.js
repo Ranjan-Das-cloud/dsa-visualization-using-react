@@ -48,7 +48,7 @@ export const SelectionSortKey = createKey('Comparing', 'Swapping');
 
 export const SelectionSortDesc = {
   title: (
-    <span><i class="cil-mood-very-good"></i>&nbsp;Selection Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
+    <span>&nbsp;Selection Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
   ),
   code: (
     <div className="row mt-3 mb-0 text-center">
