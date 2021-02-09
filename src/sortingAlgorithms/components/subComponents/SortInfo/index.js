@@ -53,7 +53,7 @@ const SortInfo = ({
               </tr>
 
               <tr>
-                <td><span><i class="cis-chart-area"></i>&nbsp;</span>Worst-case space complexity</td>
+                <td><span><i class="cli-chart-line"></i>&nbsp;</span>Worst-case space complexity</td>
                 <td>
                   <code>{space}</code>
                 </td>

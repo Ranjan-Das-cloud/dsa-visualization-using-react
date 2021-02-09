@@ -49,7 +49,7 @@ const Footer = () => {
                 <h5><a href="https://www.javatpoint.com/data-structure-tutorial" rel="noopener noreferrer" target="_blank" className="Footer__Link text-white">Javatpoint</a></h5>
               </li>
               <li>
-                <h5><a href="https://www.hackerearth.com" rel="noopener noreferrer" target="_blank" className="Footer__Link text-white">Codeacademy</a></h5>
+                <h5><a href="https://www.codeacademy.com" rel="noopener noreferrer" target="_blank" className="Footer__Link text-white">Codeacademy</a></h5>
               </li>
             </ul>
           </div>
