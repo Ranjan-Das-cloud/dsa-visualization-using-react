@@ -47,9 +47,7 @@ const SelectionSort = (nums) => {
 export const SelectionSortKey = createKey('Comparing', 'Swapping');
 
 export const SelectionSortDesc = {
-  title: (
-    <span>&nbsp;Selection Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
-  ),
+  title: 'Selection Sort',
   code: (
     <div className="row mt-3 mb-0 text-center">
       <Configuration>

@@ -14,7 +14,7 @@ const SortInfo = ({
   return (
     <div className="SortInfo">
       <hr />
-      <h1><i class="cil-mood-very-good"></i>&nbsp;{title ? title : 'Select Algorithm'}</h1>
+      <h1><i class="cil-mood-very-good"></i>&nbsp;{title ? title : 'Select Algorithm'}&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></h1>
 
       <div className="SortInfo__Body">
         <article className="SortInfo_desc">

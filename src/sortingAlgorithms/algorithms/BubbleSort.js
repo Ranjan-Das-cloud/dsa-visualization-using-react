@@ -37,9 +37,7 @@ const BubbleSort = (nums) => {
 
 export const BubbleSortKey = createKey('Comparing', 'Swapping');
 export const BubbleSortDesc = {
-  title: (
-    <span><i class="cil-mood-very-good"></i>&nbsp;Bubble Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
-    ),
+  title: 'Bubble Sort',
     code: (
       <div className="row mt-3 mb-0 text-center">
         <Configuration>

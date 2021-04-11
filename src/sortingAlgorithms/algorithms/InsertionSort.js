@@ -39,9 +39,7 @@ export const InsertionSortKey = createKey(
   'Overwrite from memory'
 );
 export const InsertionSortDesc = {
-  title: (
-    <span>&nbsp;Insertion Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
-  ),
+  title: 'Insertion Sort',
   code: (
     <div className="row mt-3 mb-0 text-center">
       <Configuration>
