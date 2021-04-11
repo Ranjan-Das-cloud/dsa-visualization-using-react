@@ -14,7 +14,7 @@ const SortInfo = ({
   return (
     <div className="SortInfo">
       <hr />
-      <h1><i class="cil-mood-very-good"></i>&nbsp;{title ? title : 'Select Algorithm'}</h1>
+      <h1><i class="cil-mood-very-good"></i>&nbsp;{title ? title : 'Select Algorithm'}&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></h1>
 
       <div className="SortInfo__Body">
         <article className="SortInfo_desc">
@@ -53,7 +53,7 @@ const SortInfo = ({
               </tr>
 
               <tr>
-                <td><span><i class="cis-chart-area"></i>&nbsp;</span>Worst-case space complexity</td>
+                <td><span><i class="cli-chart-line"></i>&nbsp;</span>Worst-case space complexity</td>
                 <td>
                   <code>{space}</code>
                 </td>

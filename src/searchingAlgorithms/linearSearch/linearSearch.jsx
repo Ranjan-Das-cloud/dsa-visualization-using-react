@@ -9,6 +9,7 @@ import SideBar from "../../utils/sidebar";
 
 // Stylesheets
 import "./linearSearch.css";
+import '../../sortingAlgorithms/__colorHub/codestyle.css';
 import Demo from "../../utils/Program_codes/view_code/LinearSearch/toggler.tsx";
 import { Configuration } from "react-md";
 
@@ -144,13 +145,21 @@ export default class LinearSearch extends React.Component {
                                     </div>
                                 </div>
                                 <div className="col-sm-1 "></div>
+                                <span>
+                                    <b><h6 className="text-white col-md-7 col-sm-8 col-xl-7 col-10 badge-primary badge-pill mt-1 mb-3">***Please Re-generate the array again to visualize proper result !!</h6></b>
+                                </span>
                             </div>
                         </div>
                         <br />
                         {!found ? (
-                            <p className="not-found growFind">
+                            <b><p className="not-found growFind col-md-4 col-sm-4 col-4 col-xl-4 text-white">
                                 {msgAfterExecution}
-                            </p>
+                            </p></b>
+                        ) : null}
+                        {found ? (
+                            <b><p className="found growFind col-md-4 col-sm-4 col-4 col-xl-4">
+                                {msgAfterExecution}
+                            </p></b>
                         ) : null}
                         <div className="container">
                             {array.map((value, idx) => (
@@ -164,7 +173,7 @@ export default class LinearSearch extends React.Component {
                         </div>
                     </center>
                 </div>
-                <div className="row mb-0 text-center">
+                <div className="row mt-3 col-lock mb-0 text-center">
                     <Configuration>
                         <Demo />
                     </Configuration>

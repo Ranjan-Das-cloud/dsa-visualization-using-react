@@ -42,15 +42,25 @@
 .Footer__Link {
   color: var(--white);
   font-weight: 700;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .hover-me:hover{
-  height:50px;
-  width: 100%;
-  color: black;
+  color: hotpink;
+  font-size: 200%;
 }
 
 .Footer__Link:hover {
-  color: var(--text-color-light);
+  color: hotpink;
+  font-family:monospace;
+  font-size:150%;
+}
+
+.Footer__Link:visited{
+  color: var(--text-color-dark);
+}
+
+.Footer__Link:active{
+  color: var(--background-color-2);
+  font-size: 110%;
 }

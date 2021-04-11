@@ -122,9 +122,7 @@ export const QuickSortKey = createKey(
 );
 
 export const QuickSortDesc = {
-  title: (
-    <span><i class="cil-mood-very-good"></i>&nbsp;Quick Sort&nbsp;&nbsp;<i class="fas fa-laptop-code"></i></span>
-  ),
+  title: 'Quick Sort',
   code: (
     <div className="row mt-3 mb-0 text-center">
       <Configuration>
