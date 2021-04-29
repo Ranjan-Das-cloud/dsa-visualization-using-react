@@ -55,7 +55,7 @@ const CrossFadeExamplesAsync: FC = () => {
       </TabsManager>
       <Container>
         {page === -1 && (
-          <Text type="headline-6">
+          <Text type="headline-6" style={{color: '#00F7FF'}}>
             {'Click on other tabs to start coding!'}
           </Text>
         )}
