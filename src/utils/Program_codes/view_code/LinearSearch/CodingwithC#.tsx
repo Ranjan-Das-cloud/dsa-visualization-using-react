@@ -5,7 +5,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   function Page5(props, ref) {
     return (
       <div {...props} ref={ref} className="mt-3 mb-1">
-        <Text type="headline-4">Source code in C#</Text>
+        <Text type="headline-4" style={{marginTop: '177px'}}>Source code in C#</Text>
         <Text>
           <code>
             <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Implementation of Linear Search</b></h4></span>
