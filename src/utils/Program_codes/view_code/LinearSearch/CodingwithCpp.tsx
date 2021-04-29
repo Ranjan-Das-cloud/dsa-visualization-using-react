@@ -5,7 +5,7 @@ export default forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
   function Page2(props, ref) {
     return (
       <div {...props} ref={ref} className="mt-3 mb-1">
-        <Text type="headline-4">Source code in C++</Text>
+        <Text type="headline-4" style={{marginTop: '177px'}}>Source code in C++</Text>
         <Text>
           <code>
           <h5 className="mt-5 mb-4"><span><h4 className="text-success"><b>Implementation of Linear Search</b></h4><span><p>1<sup>st</sup> case:&nbsp;&nbsp;if element Found at last  O(n) to O(1)<br></br>2<sup>nd</sup> case:&nbsp;&nbsp;if element Not found O(n) to O(n/2)</p></span></span>
