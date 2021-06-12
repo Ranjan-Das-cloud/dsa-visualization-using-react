@@ -4,8 +4,8 @@ The human brain can easily process visuals instead of long codes to understand t
 
 ## Go to the website to see demonstration of this project --
 
-### Demonstration on Heroku App --> "https://dsa-visualizer.herokuapp.com"
-### Demonstration on Github pages -->  "https://ranjan-das-cloud.github.io/dsa-visualization-using-react"
+### Demonstration on Heroku App --> "https://dsavisualizer.herokuapp.com"
+### Demonstration using Firebase Hosting Services -->  "https://dsavisualizer.web.app"
 
 
 
