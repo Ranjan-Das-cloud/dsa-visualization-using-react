@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dsa-visulization-using-react/static/css/main.7ffa8bb0.chunk.css",
+    "main.js": "/dsa-visulization-using-react/static/js/main.275ccd24.chunk.js",
+    "main.js.map": "/dsa-visulization-using-react/static/js/main.275ccd24.chunk.js.map",
+    "runtime-main.js": "/dsa-visulization-using-react/static/js/runtime-main.cf60d9c6.js",
+    "runtime-main.js.map": "/dsa-visulization-using-react/static/js/runtime-main.cf60d9c6.js.map",
+    "static/js/2.ee90599c.chunk.js": "/dsa-visulization-using-react/static/js/2.ee90599c.chunk.js",
+    "static/js/2.ee90599c.chunk.js.map": "/dsa-visulization-using-react/static/js/2.ee90599c.chunk.js.map",
+    "index.html": "/dsa-visulization-using-react/index.html",
+    "static/css/main.7ffa8bb0.chunk.css.map": "/dsa-visulization-using-react/static/css/main.7ffa8bb0.chunk.css.map",
+    "static/js/2.ee90599c.chunk.js.LICENSE.txt": "/dsa-visulization-using-react/static/js/2.ee90599c.chunk.js.LICENSE.txt",
+    "static/media/binaryImg-scaled.15b88557.jpg": "/dsa-visulization-using-react/static/media/binaryImg-scaled.15b88557.jpg",
+    "static/media/App.css": "/dsa-visulization-using-react/static/media/blackpink-ic.bfe93346.jpg",
+    "static/media/codestyle.css": "/dsa-visulization-using-react/static/media/graph-hdr-d.4b829500.jpg",
+    "static/media/linearsearch.4661a330.png": "/dsa-visulization-using-react/static/media/linearsearch.4661a330.png",
+    "static/media/maskShapesNew.34cd8a3b.svg": "/dsa-visulization-using-react/static/media/maskShapesNew.34cd8a3b.svg",
+    "static/media/sorting.4e3a1709.jpg": "/dsa-visulization-using-react/static/media/sorting.4e3a1709.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf60d9c6.js",
+    "static/js/2.ee90599c.chunk.js",
+    "static/css/main.7ffa8bb0.chunk.css",
+    "static/js/main.275ccd24.chunk.js"
+  ]
+}
