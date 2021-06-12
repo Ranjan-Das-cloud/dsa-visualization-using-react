@@ -1,7 +1,7 @@
 # Data Structure Algoritms Visualization using React JS
 
 The human brain can easily process visuals instead of long codes to understand the algorithms. Algorithm Visualizer is an interactive online platform that visualizes algorithms from code. Learning an algorithm gets much easier with visualizing it.
-In this Project, searching and sorting algorithms that visualizes the Linear Search, Binary Search, Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Heap Sort and Quick Sort Algorithm has been implemented.
+In this Project, searching and sorting algorithms that visualizes the Linear Search, Binary Search, Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Heap Sort and Quick Sort Algorithm have been implemented.
 
 ## Go to the website to see demonstration of this project --
 
